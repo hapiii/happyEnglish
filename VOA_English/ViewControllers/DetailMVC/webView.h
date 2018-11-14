@@ -8,6 +8,7 @@
 
 #import <WebKit/WebKit.h>
 
-@interface webView : WKWebView
+@interface webView : WKWebView<WKUIDelegate,WKNavigationDelegate>
 
+- (instancetype)initWithFrame:(CGRect)frame WithTheHTMLString:(NSString *)str;
 @end

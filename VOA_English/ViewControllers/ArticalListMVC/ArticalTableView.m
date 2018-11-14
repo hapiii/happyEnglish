@@ -8,6 +8,9 @@
 
 #import "ArticalTableView.h"
 #import "ArticalListModel.h"
+#import "ListCell.h"
+
+static NSString * const ListCellID = @"ListCellID";
 
 @implementation ArticalTableView
 
@@ -16,12 +19,23 @@
     self.delegate = self;
     self.dataSource = self;
     
+    self.separatorStyle = NO;//去掉分割线
+    self.estimatedRowHeight = 379.0f;
+    self.rowHeight = UITableViewAutomaticDimension;
+    self.dk_backgroundColorPicker = DKColorPickerWithRGB(0xf0f0f0, 0x000000, 0xfafafa);
+    
+
+    [self registerNib:[UINib nibWithNibName:NSStringFromClass([ListCell class]) bundle:nil] forCellReuseIdentifier:ListCellID];//一张图片
+
     return self;
 }
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
     return self.ListArr.count;
 }
 - (CGFloat)tableView:(UITableView *)tableView heightForFooterInSection:(NSInteger)section {
+    return 0.01;
+}
+- (CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section{
     return 0.01;
 }
 
@@ -32,36 +46,37 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     
+   
+    ListCell *cell           = [tableView dequeueReusableCellWithIdentifier:ListCellID];
+    
     ArticalListModel *model = [ArticalListModel new];
-    static NSString *cellId = @"LeftCell";
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:cellId];
-    if (cell==nil) {
-        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:cellId];
-    }
-    
-    cell.backgroundColor = WQRGBColor(40, 40, 40);
-    cell.textLabel.textColor = WQRGBColor(230, 230, 230);
-    UIView *bgview = [[UIView alloc] initWithFrame:CGRectMake(0, 0, tableView.width, tableView.rowHeight)];
-    bgview.backgroundColor = WQRGBColor(28, 28, 28);
-    cell.selectedBackgroundView = bgview;
-    cell.imageView.image = [UIImage imageNamed:[NSString stringWithFormat:@"rsm_icon_%zi",indexPath.row]];
     model = self.ListArr[indexPath.row];
-    cell.textLabel.text = model.articalTitle;
+    cell.ListLabel.text = model.articalTitle;
     
-    UIView *line = [[UIView alloc] initWithFrame:CGRectMake(0, tableView.rowHeight - 1.5, tableView.width, 1.5)];
-    line.backgroundColor = WQRGBColor(20, 20, 20);
-    [cell addSubview:line];
+   
     return cell;
     
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     
+    [tableView deselectRowAtIndexPath:indexPath animated:YES];// 取消选中，
     if (self.ArticalTableViewSelectCell) {
         self.ArticalTableViewSelectCell(self.ListArr[indexPath.row]);
     }
+    
 }
 
+- (void)scrollViewWillEndDragging:(UIScrollView *)scrollView withVelocity:(CGPoint)velocity targetContentOffset:(inout CGPoint *)targetContentOffset {
+    
+    //隐藏导航条
+    if (self.ifHidenTheNav) {
+        //为真隐藏
+        BOOL hide = velocity.y>0?1:0;
+        _ifHidenTheNav(hide);
+    }
+    
+}
 
 
 @end

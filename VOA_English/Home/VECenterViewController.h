@@ -7,7 +7,19 @@
 //
 
 #import "BaseViewController.h"
+#import "TypeListTableView.h"
+#import "ArticalListViewController.h"
+
+typedef NS_ENUM(NSInteger,ShowState) {
+    ShowStateLeft,
+    ShowStateRight
+};
 
 @interface VECenterViewController : BaseViewController
+
+@property (nonatomic,copy) void(^tapBarButton)(ShowState);
+@property (nonatomic,strong)TypeListTableView *tb;
+
+@property (nonatomic,strong)NSArray *dataSource;
 
 @end

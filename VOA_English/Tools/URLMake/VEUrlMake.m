@@ -10,4 +10,16 @@
 
 @implementation VEUrlMake
 
++ (VEUrlMake *)shareTool{
+    
+    
+    static VEUrlMake *manager = nil;
+    static dispatch_once_t onceToken;
+    dispatch_once(&onceToken, ^{
+        if (manager == nil) {
+            manager = [[VEUrlMake alloc] init];
+        }
+    });
+    return manager;
+}
 @end

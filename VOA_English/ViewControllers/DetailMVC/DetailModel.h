@@ -12,7 +12,7 @@
 
 ProStr(mp3Url)//音频地址
 ProStr(contentsStr)//内容
-ProArr(relatedArr)//相关推荐
-ProDic(relatedDic)//
+ProArr(relatedArr)//相关推荐ArticalListModel
+
 
 @end

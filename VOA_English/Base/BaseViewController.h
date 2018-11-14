@@ -10,4 +10,14 @@
 
 @interface BaseViewController : UIViewController
 
+@property (nonatomic) BOOL statusBarHidden;
+
+
+-(void)showmyAlart:(NSString *)string inView:(UIView *)view;
+
+//封装的异步请求
+-(void)dispathLoad:(void (^)())block mainQueue:(void (^)())mainBlock;
+//截屏方法
+- (UIImage *)screenShotinView:(UIViewController *)vc;
+- (void)checkNetwork;
 @end

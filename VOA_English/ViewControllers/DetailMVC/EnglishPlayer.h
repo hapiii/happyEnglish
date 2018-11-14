@@ -7,7 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "CCAudioPlayer.h"
 @interface EnglishPlayer : UIView
 
+@property (nonatomic,copy)NSString *musicURL;
+@property (weak, nonatomic) IBOutlet UIButton *playButton;
+@property (weak, nonatomic) IBOutlet UISlider *slider;
+@property (weak, nonatomic) IBOutlet UILabel *timeLabel;
+
+
+@property (nonatomic,strong) CCAudioPlayer *audioPlayer;//播放
 @end

@@ -8,6 +8,10 @@
 
 #import "BaseModel.h"
 
-@interface DocumentModel : BaseModel
+@interface DocumentModel : BaseModel<NSCoding>
+//目录模型
+ProStr(documentTitle)
+
+@property (nonatomic,strong)NSMutableArray *documentList;
 
 @end

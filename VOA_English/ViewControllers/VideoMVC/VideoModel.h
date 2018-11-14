@@ -9,5 +9,8 @@
 #import "BaseModel.h"
 
 @interface VideoModel : BaseModel
-
+ProStr(VideoUrl)
+ProStr(ImgUrl)
+ProStr(VideoDes)
+ProArr(relatedArr)//相关推荐ArticalListModel
 @end

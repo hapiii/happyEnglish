@@ -7,9 +7,70 @@
 //
 
 #ifndef PrefixHeader_pch
+
+#import "WqFactory.h"
+#import <UIView+YYAdd.h>
+#import "DKNightVersion.h"
+#import <Masonry.h>
+#import <MJRefresh.h>
+#import <SVProgressHUD.h>
+
+#import "VEUrlMake.h"
+#import "RequestTool.h"
+#import "TypeListTableView.h"
+#import "NavView.h"
+#import "ArticalListModel.h"
+#import "VideoModel.h"
+#import <UITableView+YYAdd.h>
+
+#endif
+
+
+
 #define PrefixHeader_pch
 
 // Include any system framework and library headers here that should be included in all compilation units.
 // You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+//Debug模式下有输出，Release模式下无输出
+#ifndef __OPTIMIZE__
+#   define NBLog(fmt, ...) NSLog((@"%s [Line %d] " fmt), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__);
+#else
+#   define NBLog(...) {}
+#endif
+
+
+#define iPhone4s ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(640, 960), [[UIScreen mainScreen] currentMode].size) : NO)
+
+
+#define isiOS7 [[UIDevice currentDevice].systemVersion floatValue] >= 7.0f
+
+#define isiOS8 [[UIDevice currentDevice].systemVersion floatValue] >= 8.0f
+
+#define SCREEN_WIDTH   [UIScreen mainScreen].bounds.size.width
+#define SCREENH_HEIGHT [UIScreen mainScreen].bounds.size.height
+
+//随机色
+#define RandomColor [UIColor colorWithRed:arc4random_uniform(256)/255.0 green:arc4random_uniform(256)/255.0 blue:arc4random_uniform(256)/255.0 alpha:1.0]
+
+#define WQRGBColor(r, g, b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1.0]
+
+#define WQRGBAColor(r, g, b, a) [UIColor colorWithRed:(r)/255.0 green:(r)/255.0 blue:(r)/255.0 alpha:a]
+
+// clear背景颜色
+#define LRClearColor [UIColor clearColor]
+
+#ifdef DEBUG
+#define WQLog(...) NSLog(@"%s 第%d行 \n %@\n\n",__func__,__LINE__,[NSString stringWithFormat:__VA_ARGS__])
+#else
+#define LRLog(...)
+
+#define WQWeakSelf(type)  __weak typeof(type) weak##type = type;
+#define WQStrongSelf(type)  __strong typeof(type) type = weak##type;
+
+
+
+
+
 
 #endif /* PrefixHeader_pch */

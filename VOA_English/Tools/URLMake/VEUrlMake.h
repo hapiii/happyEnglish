@@ -8,6 +8,11 @@
 
 #import <Foundation/Foundation.h>
 
+#define VoaEnglish @"http://www.51voa.com"
+
 @interface VEUrlMake : NSObject
+
++ (VEUrlMake *)shareTool;
+
 
 @end

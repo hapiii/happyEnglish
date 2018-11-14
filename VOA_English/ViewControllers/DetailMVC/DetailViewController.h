@@ -7,7 +7,14 @@
 //
 
 #import "BaseViewController.h"
+#import "ArticalTableView.h"
 
-@interface DetailViewController : BaseViewController
+@interface DetailViewController : BaseViewController<UIGestureRecognizerDelegate,UITableViewDelegate,UITableViewDataSource>
+
+@property (nonatomic,strong)ArticalListModel *artModel;
+@property (nonatomic,strong)DetailModel *model;
+
+@property (nonatomic,strong)UITableView *tb;
+
 
 @end

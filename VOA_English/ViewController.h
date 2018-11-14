@@ -6,9 +6,31 @@
 //  Copyright © 2017年 王强. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "BaseViewController.h"
+#import "BaseModel.h"
+#import "VECenterViewController.h"
+#import "VELeftViewController.h"
 
-@interface ViewController : UIViewController
+
+
+
+@interface ViewController : BaseViewController
+
+@property(strong,nonatomic)VECenterViewController *centerVC;
+@property (strong,nonatomic)VELeftViewController *leftVC;
+
+
+@property (strong, nonatomic) UIView *centerView;
+@property (strong, nonatomic) UIView *leftView;
+
+@property (strong, nonatomic) UIView *closeView;
+@property (nonatomic,assign)ShowState currentShow;
+
+@property (nonatomic,assign)BOOL hasLoad;
+
+@property (nonatomic,strong)NSArray *dataSource;
+
+
 
 
 @end

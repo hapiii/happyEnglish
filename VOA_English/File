@@ -1,0 +1,57 @@
+获取目录的一个办法，太low，弃用～～
+switch (page) {
+case VOAStandardEnglish:
+wself.dataSource = @[@"VOA Standard English",@"VOA Standard English Archives"];
+break;
+case VOASpecialEnglish:
+wself.dataSource = @[@"VOA Special English",
+@"Technology Report",
+@"This is America",
+@"Science in the News",
+@"Health Report",
+@"Education Report",
+@"Economics Report",
+@"American Mosaic",
+@"In the News",
+@"American Stories",
+@"Words And Their Stories",
+@"Trending Today",
+@"AS IT IS",
+@"Everyday Grammar",
+@"America's National Parks",
+@"Agriculture Report",
+@"Explorations",
+@"The Making of a Nation",
+@"People in America"];
+break;
+case VOAVideos:
+wself.dataSource = @[
+@"Learning English Videos",
+@"English in a Minute",
+@"English @ the Movies",
+@"News Words",
+@"Everyday Grammar TV"
+];
+break;
+case VOAEnglishLearning:
+
+wself.dataSource = @[
+@"Bilingual News",
+@"English in a Minute",
+@"Learn A Word",
+@"How to Say it",
+@"Business Etiquette",
+@"Words And Idioms",
+@"American English Mosaic",
+@"Popular American",
+@"Sports English",
+@"Go English",
+@"Wordmaster",
+@"American Cafe",
+@"Intermediate American Enlish"
+];
+break;
+
+default:
+break;
+}

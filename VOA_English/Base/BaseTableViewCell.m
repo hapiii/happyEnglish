@@ -8,6 +8,7 @@
 
 #import "BaseTableViewCell.h"
 
+
 @implementation BaseTableViewCell
 
 - (void)awakeFromNib {

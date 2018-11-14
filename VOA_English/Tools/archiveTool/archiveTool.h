@@ -10,4 +10,10 @@
 
 @interface archiveTool : NSObject
 
++ (archiveTool *)shareTool;
+
+- (BOOL)encodeArchiveObject:(DocumentModel *)model withKey:(NSString *)key andPath:(NSString *)path;
+
+//- (NSArray *)getTheArchiveObject:(id)object withKey:(NSString *)key andPath:(NSString *)path;
+
 @end

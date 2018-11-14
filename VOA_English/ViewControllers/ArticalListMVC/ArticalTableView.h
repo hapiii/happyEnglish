@@ -10,6 +10,8 @@
 
 @interface ArticalTableView : BaseTableView<UITableViewDelegate,UITableViewDataSource>
 
-@property (copy, nonatomic) void(^ArticalTableViewSelectCell)(NSString  *ListTitle);
+@property (copy, nonatomic) void(^ArticalTableViewSelectCell)(ArticalListModel  *model);
+
+@property(nonatomic,copy)void(^ifHidenTheNav)(BOOL hide);
 
 @end

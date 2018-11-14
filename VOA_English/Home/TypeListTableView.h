@@ -7,7 +7,14 @@
 //
 
 #import "BaseTableView.h"
+#import "ListCell.h"
 
-@interface TypeListTableView : BaseTableView
+@interface TypeListTableView : BaseTableView<UITableViewDelegate,UITableViewDataSource>
+
+
+
+@property (copy, nonatomic) void(^TypeListSelectCell)(ArticalListModel  *model);
+
+
 
 @end

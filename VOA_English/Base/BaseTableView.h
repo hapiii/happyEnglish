@@ -10,4 +10,6 @@
 
 @interface BaseTableView : UITableView
 
+@property (nonatomic,strong)NSArray *ListArr;
+
 @end
