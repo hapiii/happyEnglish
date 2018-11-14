@@ -1,0 +1,23 @@
+PODS:
+  - Masonry (1.0.1)
+  - MJRefresh (3.1.12)
+  - SVProgressHUD (2.0.3)
+  - YYCategories (1.0.3):
+    - YYCategories/no-arc (= 1.0.3)
+  - YYCategories/no-arc (1.0.3)
+
+DEPENDENCIES:
+  - Masonry
+  - MJRefresh (~> 3.1.12)
+  - SVProgressHUD
+  - YYCategories
+
+SPEC CHECKSUMS:
+  Masonry: a1a931a0d08870ed8ae415a2ea5ea68ebcac77df
+  MJRefresh: b96cdb21c4aa75a7b07654311ab2f315c497e806
+  SVProgressHUD: b0830714205bea1317ea1a2ebc71e5633af334d4
+  YYCategories: 0fd4d9eb0994d8d0e355beb4081c8f7202a82b7b
+
+PODFILE CHECKSUM: b48e5d656d241bf06a87b65e9ae30d59be4683c2
+
+COCOAPODS: 1.2.0
