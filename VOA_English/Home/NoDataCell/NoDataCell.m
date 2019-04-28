@@ -13,6 +13,7 @@
 @implementation NoDataCell
 
 - (void)awakeFromNib {
+    
     [super awakeFromNib];
     UIButton *btn = [[UIButton alloc] initWithFrame:CGRectMake(100, 100, 100, 50)];
     [btn setTitle:@"添加" forState:UIControlStateNormal];

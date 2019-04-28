@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		84C04A187A5691B04E64FAD6 /* libPods-VOA_English.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FDD490BFB166EA5BF63D4B1 /* libPods-VOA_English.a */; };
 		BF03514B227581240086015E /* MainWebController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF03514A227581240086015E /* MainWebController.m */; };
+		BF03514D227598680086015E /* 王凯杰.p12 in Resources */ = {isa = PBXBuildFile; fileRef = BF03514C227598680086015E /* 王凯杰.p12 */; };
 		BF1679501E83C5F500E36318 /* VideoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BF16794F1E83C5F500E36318 /* VideoModel.m */; };
 		BF17786B1E6FE68C00EBC03F /* BaseTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = BF17786A1E6FE68C00EBC03F /* BaseTableView.m */; };
 		BF17786E1E6FE6C800EBC03F /* TypeListTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = BF17786D1E6FE6C800EBC03F /* TypeListTableView.m */; };
@@ -115,6 +116,7 @@
 		8FDD490BFB166EA5BF63D4B1 /* libPods-VOA_English.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VOA_English.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF035149227581240086015E /* MainWebController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainWebController.h; sourceTree = "<group>"; };
 		BF03514A227581240086015E /* MainWebController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainWebController.m; sourceTree = "<group>"; };
+		BF03514C227598680086015E /* 王凯杰.p12 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "王凯杰.p12"; sourceTree = "<group>"; };
 		BF16794E1E83C5F500E36318 /* VideoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoModel.h; sourceTree = "<group>"; };
 		BF16794F1E83C5F500E36318 /* VideoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoModel.m; sourceTree = "<group>"; };
 		BF1778691E6FE68C00EBC03F /* BaseTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTableView.h; sourceTree = "<group>"; };
@@ -549,6 +551,7 @@
 		BFBFE53B1E6CED0600F114E2 = {
 			isa = PBXGroup;
 			children = (
+				BF03514C227598680086015E /* 王凯杰.p12 */,
 				BFBFE5461E6CED0700F114E2 /* VOA_English */,
 				BFBFE5601E6CED0700F114E2 /* VOA_EnglishTests */,
 				BFBFE56B1E6CED0700F114E2 /* VOA_EnglishUITests */,
@@ -820,7 +823,7 @@
 				TargetAttributes = {
 					BFBFE5431E6CED0700F114E2 = {
 						CreatedOnToolsVersion = 8.2;
-						DevelopmentTeam = WW5B7SJS2B;
+						DevelopmentTeam = DN6UGR8B88;
 						ProvisioningStyle = Automatic;
 					};
 					BFBFE55C1E6CED0700F114E2 = {
@@ -868,6 +871,7 @@
 				BFA92F301E95EB32003D8A26 /* DKColorTable.txt in Resources */,
 				BFBFE5541E6CED0700F114E2 /* Assets.xcassets in Resources */,
 				BFA7FABF1E89FB5B000F4F5B /* ZFPlayer.bundle in Resources */,
+				BF03514D227598680086015E /* 王凯杰.p12 in Resources */,
 				BFBFE5B01E6E730C00F114E2 /* File in Resources */,
 				BF85987F1E7234280069DC4C /* Document.json in Resources */,
 				BF86BA051E764567009DCEF1 /* ListCell.xib in Resources */,
@@ -1147,12 +1151,12 @@
 			baseConfigurationReference = 44C58A1A5D00DB2DF1D298A1 /* Pods-VOA_English.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = WW5B7SJS2B;
+				DEVELOPMENT_TEAM = DN6UGR8B88;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/VOA_English/PrefixHeader.pch";
 				INFOPLIST_FILE = VOA_English/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.duoduole.English;
+				PRODUCT_BUNDLE_IDENTIFIER = com.duoduole.english;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -1162,12 +1166,12 @@
 			baseConfigurationReference = 31F01B9C411D6B33B3D4C261 /* Pods-VOA_English.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = WW5B7SJS2B;
+				DEVELOPMENT_TEAM = DN6UGR8B88;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/VOA_English/PrefixHeader.pch";
 				INFOPLIST_FILE = VOA_English/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.duoduole.English;
+				PRODUCT_BUNDLE_IDENTIFIER = com.duoduole.english;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
