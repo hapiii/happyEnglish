@@ -52,9 +52,10 @@
 #pragma mark 封装异步加载请求
 -(void)dispathLoad:(void (^)())block mainQueue:(void (^)())mainBlock{
     
+     [SVProgressHUD show];
     dispatch_async(dispatch_get_global_queue(0, 0), ^{
-        [SVProgressHUD show];
-        // 处理耗时操作的代码块...
+       
+       
         block();
         //通知主线程刷新
         dispatch_async(dispatch_get_main_queue(), ^{

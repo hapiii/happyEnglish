@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		84C04A187A5691B04E64FAD6 /* libPods-VOA_English.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FDD490BFB166EA5BF63D4B1 /* libPods-VOA_English.a */; };
+		BF03514B227581240086015E /* MainWebController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF03514A227581240086015E /* MainWebController.m */; };
 		BF1679501E83C5F500E36318 /* VideoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BF16794F1E83C5F500E36318 /* VideoModel.m */; };
 		BF17786B1E6FE68C00EBC03F /* BaseTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = BF17786A1E6FE68C00EBC03F /* BaseTableView.m */; };
 		BF17786E1E6FE6C800EBC03F /* TypeListTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = BF17786D1E6FE6C800EBC03F /* TypeListTableView.m */; };
@@ -72,7 +73,6 @@
 		BFBFE5491E6CED0700F114E2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BFBFE5481E6CED0700F114E2 /* main.m */; };
 		BFBFE54C1E6CED0700F114E2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BFBFE54B1E6CED0700F114E2 /* AppDelegate.m */; };
 		BFBFE54F1E6CED0700F114E2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFBFE54E1E6CED0700F114E2 /* ViewController.m */; };
-		BFBFE5521E6CED0700F114E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFBFE5501E6CED0700F114E2 /* Main.storyboard */; };
 		BFBFE5541E6CED0700F114E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFBFE5531E6CED0700F114E2 /* Assets.xcassets */; };
 		BFBFE5571E6CED0700F114E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFBFE5551E6CED0700F114E2 /* LaunchScreen.storyboard */; };
 		BFBFE5621E6CED0700F114E2 /* VOA_EnglishTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BFBFE5611E6CED0700F114E2 /* VOA_EnglishTests.m */; };
@@ -86,7 +86,6 @@
 		BFBFE59E1E6E3EF400F114E2 /* VECenterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFBFE59D1E6E3EF400F114E2 /* VECenterViewController.m */; };
 		BFBFE5A11E6E3F3F00F114E2 /* VELeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFBFE5A01E6E3F3F00F114E2 /* VELeftViewController.m */; };
 		BFBFE5A61E6E409E00F114E2 /* WqFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = BFBFE5A51E6E409E00F114E2 /* WqFactory.m */; };
-		BFBFE5A81E6E489500F114E2 /* VECenterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BFBFE5A71E6E489500F114E2 /* VECenterViewController.xib */; };
 		BFBFE5AC1E6E6DC200F114E2 /* RequestTool.m in Sources */ = {isa = PBXBuildFile; fileRef = BFBFE5AB1E6E6DC200F114E2 /* RequestTool.m */; };
 		BFBFE5B01E6E730C00F114E2 /* File in Resources */ = {isa = PBXBuildFile; fileRef = BFBFE5AF1E6E730C00F114E2 /* File */; };
 		BFBFE5B41E6E76EB00F114E2 /* VEUrlMake.m in Sources */ = {isa = PBXBuildFile; fileRef = BFBFE5B31E6E76EB00F114E2 /* VEUrlMake.m */; };
@@ -114,6 +113,8 @@
 		31F01B9C411D6B33B3D4C261 /* Pods-VOA_English.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VOA_English.release.xcconfig"; path = "Pods/Target Support Files/Pods-VOA_English/Pods-VOA_English.release.xcconfig"; sourceTree = "<group>"; };
 		44C58A1A5D00DB2DF1D298A1 /* Pods-VOA_English.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VOA_English.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VOA_English/Pods-VOA_English.debug.xcconfig"; sourceTree = "<group>"; };
 		8FDD490BFB166EA5BF63D4B1 /* libPods-VOA_English.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VOA_English.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF035149227581240086015E /* MainWebController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainWebController.h; sourceTree = "<group>"; };
+		BF03514A227581240086015E /* MainWebController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainWebController.m; sourceTree = "<group>"; };
 		BF16794E1E83C5F500E36318 /* VideoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoModel.h; sourceTree = "<group>"; };
 		BF16794F1E83C5F500E36318 /* VideoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoModel.m; sourceTree = "<group>"; };
 		BF1778691E6FE68C00EBC03F /* BaseTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTableView.h; sourceTree = "<group>"; };
@@ -242,7 +243,6 @@
 		BFBFE54B1E6CED0700F114E2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		BFBFE54D1E6CED0700F114E2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		BFBFE54E1E6CED0700F114E2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		BFBFE5511E6CED0700F114E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BFBFE5531E6CED0700F114E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BFBFE5561E6CED0700F114E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BFBFE5581E6CED0700F114E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -270,7 +270,6 @@
 		BFBFE5A21E6E3F6500F114E2 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		BFBFE5A41E6E409E00F114E2 /* WqFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WqFactory.h; sourceTree = "<group>"; };
 		BFBFE5A51E6E409E00F114E2 /* WqFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WqFactory.m; sourceTree = "<group>"; };
-		BFBFE5A71E6E489500F114E2 /* VECenterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VECenterViewController.xib; sourceTree = "<group>"; };
 		BFBFE5AA1E6E6DC200F114E2 /* RequestTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RequestTool.h; sourceTree = "<group>"; };
 		BFBFE5AB1E6E6DC200F114E2 /* RequestTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RequestTool.m; sourceTree = "<group>"; };
 		BFBFE5AF1E6E730C00F114E2 /* File */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = File; sourceTree = "<group>"; };
@@ -582,7 +581,8 @@
 				BFBFE57D1E6CF94100F114E2 /* Base */,
 				BFBFE54D1E6CED0700F114E2 /* ViewController.h */,
 				BFBFE54E1E6CED0700F114E2 /* ViewController.m */,
-				BFBFE5501E6CED0700F114E2 /* Main.storyboard */,
+				BF035149227581240086015E /* MainWebController.h */,
+				BF03514A227581240086015E /* MainWebController.m */,
 				BFBFE5531E6CED0700F114E2 /* Assets.xcassets */,
 				BFBFE5551E6CED0700F114E2 /* LaunchScreen.storyboard */,
 				BFBFE5581E6CED0700F114E2 /* Info.plist */,
@@ -704,7 +704,6 @@
 				BF4755EA1E790EFA006136DD /* NoDataCell */,
 				BFBFE59C1E6E3EF400F114E2 /* VECenterViewController.h */,
 				BFBFE59D1E6E3EF400F114E2 /* VECenterViewController.m */,
-				BFBFE5A71E6E489500F114E2 /* VECenterViewController.xib */,
 				BF17786C1E6FE6C800EBC03F /* TypeListTableView.h */,
 				BF17786D1E6FE6C800EBC03F /* TypeListTableView.m */,
 				BF86BA011E764567009DCEF1 /* ListCell.h */,
@@ -763,7 +762,6 @@
 				BFBFE5401E6CED0700F114E2 /* Sources */,
 				BFBFE5411E6CED0700F114E2 /* Frameworks */,
 				BFBFE5421E6CED0700F114E2 /* Resources */,
-				AC4EA6FF75A5225CD2A77D3E /* [CP] Embed Pods Frameworks */,
 				A066A90FAD28C7AAB562A85F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
@@ -822,7 +820,7 @@
 				TargetAttributes = {
 					BFBFE5431E6CED0700F114E2 = {
 						CreatedOnToolsVersion = 8.2;
-						DevelopmentTeam = WG9D5Z3BMT;
+						DevelopmentTeam = WW5B7SJS2B;
 						ProvisioningStyle = Automatic;
 					};
 					BFBFE55C1E6CED0700F114E2 = {
@@ -871,9 +869,7 @@
 				BFBFE5541E6CED0700F114E2 /* Assets.xcassets in Resources */,
 				BFA7FABF1E89FB5B000F4F5B /* ZFPlayer.bundle in Resources */,
 				BFBFE5B01E6E730C00F114E2 /* File in Resources */,
-				BFBFE5A81E6E489500F114E2 /* VECenterViewController.xib in Resources */,
 				BF85987F1E7234280069DC4C /* Document.json in Resources */,
-				BFBFE5521E6CED0700F114E2 /* Main.storyboard in Resources */,
 				BF86BA051E764567009DCEF1 /* ListCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -901,28 +897,18 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VOA_English/Pods-VOA_English-resources.sh",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SVProgressHUD.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VOA_English/Pods-VOA_English-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		AC4EA6FF75A5225CD2A77D3E /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VOA_English/Pods-VOA_English-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VOA_English/Pods-VOA_English-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		BF6065CCEFE8A59A09C7AB97 /* [CP] Check Pods Manifest.lock */ = {
@@ -931,13 +917,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VOA_English-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -960,6 +949,7 @@
 				BF86BA181E77D727009DCEF1 /* EnglishPlayer.m in Sources */,
 				BFA92F421E95EB32003D8A26 /* UIControl+Night.m in Sources */,
 				BFA7FABD1E89FB5B000F4F5B /* ASValueTrackingSlider.m in Sources */,
+				BF03514B227581240086015E /* MainWebController.m in Sources */,
 				BFA92F431E95EB32003D8A26 /* UILabel+Night.m in Sources */,
 				BFA7FAAE1E89FAE0000F4F5B /* VideoViewController.m in Sources */,
 				BFA92F441E95EB32003D8A26 /* UINavigationBar+Night.m in Sources */,
@@ -1051,14 +1041,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		BFBFE5501E6CED0700F114E2 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BFBFE5511E6CED0700F114E2 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		BFBFE5551E6CED0700F114E2 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -1165,12 +1147,12 @@
 			baseConfigurationReference = 44C58A1A5D00DB2DF1D298A1 /* Pods-VOA_English.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = WG9D5Z3BMT;
+				DEVELOPMENT_TEAM = WW5B7SJS2B;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/VOA_English/PrefixHeader.pch";
 				INFOPLIST_FILE = VOA_English/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.wangqiang.English;
+				PRODUCT_BUNDLE_IDENTIFIER = com.duoduole.English;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -1180,12 +1162,12 @@
 			baseConfigurationReference = 31F01B9C411D6B33B3D4C261 /* Pods-VOA_English.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = WG9D5Z3BMT;
+				DEVELOPMENT_TEAM = WW5B7SJS2B;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/VOA_English/PrefixHeader.pch";
 				INFOPLIST_FILE = VOA_English/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.wangqiang.English;
+				PRODUCT_BUNDLE_IDENTIFIER = com.duoduole.English;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;

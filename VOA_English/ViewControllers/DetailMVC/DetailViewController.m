@@ -88,9 +88,12 @@ static NSString * const ListCellID = @"ListCellID";
 #pragma mark====伪导航条
 - (void)createNav{
     
-    UIBarButtonItem *search = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"return"] style:UIBarButtonItemStylePlain target:self action:@selector(returnButClick)];
+    UIBarButtonItem *search = [[UIBarButtonItem alloc] initWithImage:[[UIImage imageNamed:@"return"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal] style:UIBarButtonItemStylePlain target:self action:@selector(returnButClick)];
     self.navigationItem.leftBarButtonItem = search;
-    self.navigationItem.title = self.artModel.articalTitle;
+    UILabel *titleLab = [UILabel new];
+    titleLab.textColor = [UIColor whiteColor];
+    titleLab.text = self.artModel.articalTitle;
+    self.navigationItem.titleView = titleLab;
     self.navigationController.interactivePopGestureRecognizer.delegate = self;
     
 }

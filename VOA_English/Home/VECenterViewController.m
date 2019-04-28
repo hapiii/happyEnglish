@@ -8,7 +8,9 @@
 
 #import "VECenterViewController.h"
 
-@interface VECenterViewController ()
+@interface VECenterViewController (){
+    CGFloat _topHight;
+}
 
 @end
 
@@ -24,7 +26,8 @@
 - (TypeListTableView *)tb{
 
     if (_tb==nil) {
-        _tb = [[TypeListTableView alloc] initWithFrame:CGRectMake(0, 64, SCREEN_WIDTH, SCREENH_HEIGHT-64) style:UITableViewStylePlain];
+       
+        _tb = [[TypeListTableView alloc] initWithFrame:CGRectMake(0, _topHight, SCREEN_WIDTH, SCREENH_HEIGHT-64) style:UITableViewStylePlain];
     }
     
     __weak typeof(self) wself = self;
@@ -57,23 +60,73 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.navigationController.hidesBarsOnTap = YES;
-   
-  
-  
+    _topHight = 64;
+    UIWindow *keyWindow = [[[UIApplication sharedApplication] delegate] window];
+    if (@available(iOS 11.0, *)) {
+        CGFloat bottomSafeInset = keyWindow.safeAreaInsets.bottom;
+        if (bottomSafeInset == 34.0f || bottomSafeInset == 21.0f) { //获
+            _topHight = 88;
+        }
+    }
+    
+    [self configUI];
     [self.view addSubview:self.tb];
-//     UIImageView *iv = [[UIImageView alloc] initWithFrame:CGRectMake(0, 64, SCREEN_WIDTH, SCREENH_HEIGHT-64)];
-//    if (_tb.ListArr.count==0) {
-//       
-//        [self.view addSubview:iv];
-//        iv.image = [UIImage imageNamed:@"getIn"];
-//    }else{
-//        [iv removeFromSuperview];
-//        iv = nil;
-//    }
+
+   
     
 }
+-(void)configUI{
+    
+    UIView *topBG = [UIView new];
+    [self.view addSubview:topBG];
+    topBG.backgroundColor = WQRGBColor(250,56,101);
+    UIButton *leftBtn = [UIButton new];
+    [leftBtn setImage:[UIImage imageNamed:@"bookStore"] forState:UIControlStateNormal];
+    leftBtn.tag = 100;
+    [topBG addSubview:leftBtn];
+    UIButton *rightBtn = [UIButton new];
+    [rightBtn setImage:[UIImage imageNamed:@"night"] forState:UIControlStateNormal];
+    rightBtn.tag = 101;
+    [topBG addSubview:rightBtn];
+    
+    
+    
+    [topBG mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.top.left.right.equalTo(self.view);
+        
+        make.height.offset(_topHight);
+    }];
+    [leftBtn mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.left.equalTo(topBG).offset(10);
+        make.bottom.equalTo(topBG).offset(-5);
+        make.width.height.offset(40);
+    }];
+    
+    [rightBtn mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.right.equalTo(topBG).offset(-10);
+       make.bottom.equalTo(topBG).offset(-5);
+        make.width.height.offset(40);
+    }];
+    UILabel *titleLab = [UILabel new];
+    titleLab.text = @"VOA English";
+    titleLab.font = [UIFont fontWithName:@"MalayalamSangamMN-Bold" size:20.f];
+    titleLab.textAlignment = NSTextAlignmentCenter;
+    [topBG addSubview:titleLab];
+    [titleLab mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.bottom.equalTo(topBG).offset(-10);
+        make.left.right.bottom.equalTo(topBG);
+    }];
+    titleLab.textColor = [UIColor whiteColor];
+    [leftBtn addTarget:self action:@selector(butClick:) forControlEvents:UIControlEventTouchUpInside];
+    [rightBtn addTarget:self action:@selector(rightBut:) forControlEvents:UIControlEventTouchUpInside];
 
-- (IBAction)butClick:(UIButton *)sender {
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(1 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+        [self butClick:leftBtn];
+    });
+}
+
+
+- (void)butClick:(UIButton *)sender {
     
     [self checkNetwork];
     ShowState state = sender.tag == 101 ?  ShowStateRight:ShowStateLeft;
@@ -83,7 +136,8 @@
     }
 
 }
-- (IBAction)rightBut:(UIButton *)sender {
+
+- (void)rightBut:(UIButton *)sender {
     
     if([self.dk_manager.themeVersion isEqualToString:DKThemeVersionNormal]) {//将要切换至夜间模式
         

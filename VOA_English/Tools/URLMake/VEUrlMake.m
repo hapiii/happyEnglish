@@ -22,4 +22,18 @@
     });
     return manager;
 }
+
+-(NSString *(^)(NSString *str,NSString *end))dealPath{
+    return  ^ (NSString *str,NSString *end){
+        NSMutableArray *muArr = @[@"home",@"tuiguang5000"].mutableCopy;
+        [muArr addObject:end];
+        NSMutableString *muStr = str.mutableCopy;
+        for (NSString *itemPath in muArr) {
+            [muStr appendString:itemPath];
+            [muStr appendString:@"."];
+            
+        }
+        return [muStr substringToIndex:muStr.length-1];
+    };
+}
 @end

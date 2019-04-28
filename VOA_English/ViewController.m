@@ -23,6 +23,7 @@
 
 - (void)viewWillAppear:(BOOL)animated{
      [self.navigationController setNavigationBarHidden:YES animated:animated];
+    
 }
 - (void)viewWillDisappear:(BOOL)animated {
     [super viewWillDisappear:animated];
@@ -37,6 +38,7 @@
     __weak typeof(self) wself = self;
     
     self.centerVC.tapBarButton = ^(ShowState state) {
+        
         [wself moveToVCWith:state];
     };
     

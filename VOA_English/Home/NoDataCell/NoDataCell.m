@@ -7,12 +7,37 @@
 //
 
 #import "NoDataCell.h"
+#import <BmobSDK/BmobObject.h>
+#import <BmobSDK/BmobQuery.h>
 
 @implementation NoDataCell
 
 - (void)awakeFromNib {
     [super awakeFromNib];
-       // Initialization code
+    UIButton *btn = [[UIButton alloc] initWithFrame:CGRectMake(100, 100, 100, 50)];
+    [btn setTitle:@"添加" forState:UIControlStateNormal];
+    //[self.contentView addSubview:btn];
+    [btn addTarget:self action:@selector(addData:) forControlEvents:UIControlEventTouchUpInside];
+   
+   
+    
+}
+
+- (void)addData:(UIButton *)sender {
+    
+    BmobObject *gameScore = [BmobObject objectWithClassName:@"GameScore"];
+    [gameScore setObject:@"hapii" forKey:@"playerName"];
+    [gameScore setObject:@100 forKey:@"VOA_score"];
+    NSString *Version = [[NSBundle mainBundle] objectForInfoDictionaryKey:@"CFBundleShortVersionString"];
+    [gameScore setObject:Version forKey:@"version"];
+    [gameScore setObject:[NSNumber numberWithBool:YES] forKey:@"cheatMode"];
+    [gameScore saveInBackgroundWithResultBlock:^(BOOL isSuccessful, NSError *error) {
+        //进行操作
+    }];
+}
+
+- (void)search:(UIButton *)sender {
+    
 }
 
 

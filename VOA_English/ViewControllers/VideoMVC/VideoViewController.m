@@ -53,6 +53,7 @@
 - (void)loadData{
    
     [self dispathLoad:^{
+        
      self.model = [[RequestTool shareTool] getTheVideoDetailFromTheUrl:self.videoUrl];
     } mainQueue:^{
         
@@ -117,33 +118,23 @@
     __weak typeof(self) wself = self;
     //点击cell刷新数据
     _tb.VIdeoListTableViewSelectCell = ^(ArticalListModel  *model){
-        
     
-       
-      
         //移除所有的子视图
         for(UIView *view in [wself.view subviews])
         {
             if (view == self.playerView) {
-                
                 [wself.playerView pause];//暂停
-               }else{
-                
+            }else{
                 [view removeFromSuperview];
             }
-            
-            
         }
        
-        
         wself.videoTitle = model.articalTitle;
         wself.videoUrl = [NSString stringWithFormat:@"http://www.51voa.com/VOA_Videos/%@",model.ArticalUrl];
          [wself loadData];
        
-        
     };
     
-
     [self.view addSubview:self.tb];
    
 
@@ -167,7 +158,7 @@
 }
 
 - (void)willRotateToInterfaceOrientation:(UIInterfaceOrientation)toInterfaceOrientation duration:(NSTimeInterval)duration{
-    NSLog(@"旋转啦");
+    
     if (toInterfaceOrientation == UIInterfaceOrientationPortrait) {
         self.view.backgroundColor = [UIColor whiteColor];
         //if use Masonry,Please open this annotation

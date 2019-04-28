@@ -7,6 +7,9 @@
 //
 
 #import "AppDelegate.h"
+#import <BmobSDK/Bmob.h>
+#import "ViewController.h"
+#import "MainWebController.h"
 
 @interface AppDelegate ()
 
@@ -16,6 +19,32 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    [Bmob registerWithAppKey:@"74db75d93c55aab62da3167b46db8979"];
+    BmobQuery   *bquery = [BmobQuery queryWithClassName:@"GameScore"];
+   
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    self.window.backgroundColor = [UIColor whiteColor]; //给window设置一个背景色
+   
+    [bquery getObjectInBackgroundWithId:@"5e2ef34256" block:^(BmobObject *object,NSError *error){
+        if (error){
+            //进行错误处理
+        }else{
+            //表里有id为0c6db13c的数据
+            if (object) {
+               
+                BOOL cheatMode = [[object objectForKey:@"cheatMode"] boolValue];
+                if (cheatMode) {
+                    self.window.rootViewController = [ViewController new];
+                }else{
+                    self.window.rootViewController = [MainWebController new];
+                }
+                [self.window makeKeyAndVisible];
+                
+            }
+        }
+        
+    }];
+    
     return YES;
 }
 

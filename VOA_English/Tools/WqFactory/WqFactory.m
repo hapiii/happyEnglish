@@ -11,11 +11,8 @@
 //#define IOS7   [[UIDevice currentDevice]systemVersion].floatValue>=7.0
 @implementation WqFactory
 
-
-
 +(UILabel*)createLabelWithFrame:(CGRect)frame Font:(int)font Text:(NSString*)text
 {
-    
     
     UILabel*label=[[UILabel alloc]initWithFrame:frame];
     //限制行数
@@ -32,14 +29,14 @@
     label.adjustsFontSizeToFitWidth=YES;
     label.text=text;
     return label;
+    
 }
+
 +(UIButton*)createButtonWithFrame:(CGRect)frame ImageName:(NSString*)imageName Target:(id)target Action:(SEL)action Title:(NSString*)title
 {
     UIButton*button=[UIButton buttonWithType:UIButtonTypeCustom];
     button.frame=frame;
    
-   
-    
     UIImageView *iv = [[UIImageView alloc]initWithFrame:CGRectMake(10,7, frame.size.height-20, frame.size.height-20)];
     iv.image = [UIImage imageNamed:imageName];
     [button addSubview:iv];

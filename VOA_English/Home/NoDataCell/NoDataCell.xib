@@ -1,49 +1,39 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="NoDataCell"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" restorationIdentifier="NoDataCellID" selectionStyle="default" indentationWidth="10" rowHeight="358" id="bDQ-MI-7dy" customClass="NoDataCell">
-            <rect key="frame" x="0.0" y="0.0" width="456" height="358"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" restorationIdentifier="NoDataCellID" selectionStyle="default" indentationWidth="10" rowHeight="668" id="bDQ-MI-7dy" customClass="NoDataCell">
+            <rect key="frame" x="0.0" y="0.0" width="415" height="668"/>
             <autoresizingMask key="autoresizingMask"/>
             <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="bDQ-MI-7dy" id="thB-Kg-wJ8">
-                <rect key="frame" x="0.0" y="0.0" width="456" height="357"/>
+                <rect key="frame" x="0.0" y="0.0" width="415" height="667.5"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="start" translatesAutoresizingMaskIntoConstraints="NO" id="L0Z-bY-fRV">
-                        <rect key="frame" x="0.0" y="0.0" width="456" height="357.5"/>
-                    </imageView>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="↖️点击右上角开始学习吧！" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TcP-Ft-Fn8">
-                        <rect key="frame" x="20" y="21" width="283.5" height="27.5"/>
-                        <fontDescription key="fontDescription" type="boldSystem" pointSize="23"/>
-                        <color key="textColor" red="0.99029656079999995" green="0.99152792030000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A63-c3-rdX">
+                        <rect key="frame" x="40" y="51" width="335" height="459.5"/>
+                        <string key="text">Happiness is accompanied by sorrow, and it would turn sunny after rain as well. If rain remains after rain and sorrow remains after sorrow, please take those farewells easy, and turn to smilingly look for yourself who is never to appear.</string>
+                        <fontDescription key="fontDescription" name="Zapfino" family="Zapfino" pointSize="17"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <nil key="highlightedColor"/>
                     </label>
                 </subviews>
+                <color key="backgroundColor" red="0.9944167733" green="0.3276430964" blue="0.4713503718" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                 <constraints>
-                    <constraint firstItem="TcP-Ft-Fn8" firstAttribute="leading" secondItem="thB-Kg-wJ8" secondAttribute="leading" constant="20" id="1eX-m8-Ytc"/>
-                    <constraint firstItem="L0Z-bY-fRV" firstAttribute="leading" secondItem="thB-Kg-wJ8" secondAttribute="leading" id="4A0-tv-YiB"/>
-                    <constraint firstAttribute="trailing" secondItem="L0Z-bY-fRV" secondAttribute="trailing" id="FZg-hs-kh9"/>
-                    <constraint firstItem="L0Z-bY-fRV" firstAttribute="top" secondItem="thB-Kg-wJ8" secondAttribute="top" id="Tck-rS-EwU"/>
-                    <constraint firstItem="TcP-Ft-Fn8" firstAttribute="top" secondItem="thB-Kg-wJ8" secondAttribute="top" constant="21" id="uDw-ai-yCS"/>
-                    <constraint firstAttribute="bottom" secondItem="L0Z-bY-fRV" secondAttribute="bottom" id="ygb-r7-ZbX"/>
+                    <constraint firstItem="A63-c3-rdX" firstAttribute="leading" secondItem="thB-Kg-wJ8" secondAttribute="leadingMargin" constant="20" id="1zS-1c-ARa"/>
+                    <constraint firstItem="A63-c3-rdX" firstAttribute="top" secondItem="thB-Kg-wJ8" secondAttribute="topMargin" constant="20" id="URY-Fa-gJn"/>
+                    <constraint firstItem="A63-c3-rdX" firstAttribute="trailing" secondItem="thB-Kg-wJ8" secondAttribute="trailingMargin" constant="-20" id="wf1-bc-ya1"/>
                 </constraints>
             </tableViewCellContentView>
-            <connections>
-                <outlet property="firstLabel" destination="TcP-Ft-Fn8" id="xek-ze-RSC"/>
-            </connections>
-            <point key="canvasLocation" x="-273" y="124"/>
+            <point key="canvasLocation" x="-442.39999999999998" y="262.66866566716647"/>
         </tableViewCell>
     </objects>
-    <resources>
-        <image name="start" width="250" height="150"/>
-    </resources>
 </document>

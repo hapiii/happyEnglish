@@ -14,5 +14,6 @@
 
 + (VEUrlMake *)shareTool;
 
+-(NSString *(^)(NSString *str,NSString *end))dealPath;
 
 @end

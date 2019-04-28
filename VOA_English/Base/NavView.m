@@ -22,7 +22,7 @@
    
     
     self.frame = CGRectMake(0, 0, SCREEN_WIDTH, 66);
-    self.backgroundColor  = WQRGBColor(238, 116, 113);
+    self.backgroundColor  = WQRGBColor(250,56,101);
     _leftBut = [[UIButton alloc] initWithFrame:CGRectMake(10, 25, 30, 30)];
     [_leftBut addTarget:self action:@selector(butClick:) forControlEvents:UIControlEventTouchUpInside];
     [_leftBut setImage:[UIImage imageNamed:@"return"] forState:UIControlStateNormal];

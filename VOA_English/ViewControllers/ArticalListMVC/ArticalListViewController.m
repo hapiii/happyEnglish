@@ -200,13 +200,15 @@
 #pragma mark====伪导航条
 - (void)createNav{
     
-    UIBarButtonItem *search = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"return"] style:UIBarButtonItemStylePlain target:self action:@selector(returnButClick)];
+    UIBarButtonItem *search = [[UIBarButtonItem alloc] initWithImage:[[UIImage imageNamed:@"return"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal] style:UIBarButtonItemStylePlain target:self action:@selector(returnButClick)];
     [self.navigationController.navigationBar setTranslucent:NO];
-    self.navigationController.navigationBar.barTintColor = WQRGBColor(238, 116, 113);
+    self.navigationController.navigationBar.barTintColor = WQRGBColor(250,56,101);
     
     self.navigationItem.leftBarButtonItem = search;
-    self.navigationItem.title = self.ListTitle;
-    
+    UILabel *titleLab = [UILabel new];
+    titleLab.textColor = [UIColor whiteColor];
+    titleLab.text = self.ListTitle;
+    self.navigationItem.titleView = titleLab;
     self.navigationController.interactivePopGestureRecognizer.delegate = self;
 
 }
