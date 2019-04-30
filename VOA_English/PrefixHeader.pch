@@ -6,6 +6,10 @@
 //  Copyright © 2017年 王强. All rights reserved.
 //
 
+#if (DEBUG != 1)
+#import "STCDefination.h"
+#endif
+
 #ifndef PrefixHeader_pch
 
 #import "WqFactory.h"

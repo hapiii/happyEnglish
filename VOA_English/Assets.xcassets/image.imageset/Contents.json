@@ -2,17 +2,16 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "images.png",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
-      "filename" : "images-1.png",
+      "filename" : "屏幕快照 2019-04-30 下午3.06.35store_1024pt-1.png",
       "scale" : "2x"
     },
     {
       "idiom" : "universal",
-      "filename" : "images-2.png",
+      "filename" : "屏幕快照 2019-04-30 下午3.06.35store_1024pt.png",
       "scale" : "3x"
     }
   ],

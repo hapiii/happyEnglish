@@ -10,6 +10,7 @@
 #import <BmobSDK/Bmob.h>
 #import "ViewController.h"
 #import "MainWebController.h"
+#import <STCObfuscator.h>
 
 @interface AppDelegate ()
 
@@ -19,28 +20,41 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    
+#if (DEBUG == 1)
+     [STCObfuscator obfuscatorManager].md5Salt = @"go die tremp";
+    [STCObfuscator obfuscatorManager].unConfuseClassPrefix = @[@"MJ",@"DK",@"MAS",@"SV",@"Bmob"];
+    [[STCObfuscator obfuscatorManager] confuseWithRootPath:[NSString stringWithFormat:@"%s", STRING(ROOT_PATH)] resultFilePath:[NSString stringWithFormat:@"%@/STCDefination.h", [NSString stringWithFormat:@"%s", STRING(ROOT_PATH)]] linkmapPath:[NSString stringWithFormat:@"%s", STRING(LINKMAP_FILE)]];
+#endif
+   
+   
+    
     [Bmob registerWithAppKey:@"74db75d93c55aab62da3167b46db8979"];
     BmobQuery   *bquery = [BmobQuery queryWithClassName:@"GameScore"];
    
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     self.window.backgroundColor = [UIColor whiteColor]; //给window设置一个背景色
-   
+    UIImageView *img = [[UIImageView alloc] initWithFrame:self.window.frame];
+    img.image = [UIImage imageNamed:@"launcg"];
+    [self.window addSubview:img];
+    
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(1 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+        [img removeFromSuperview];
+    });
+    
     [bquery getObjectInBackgroundWithId:@"5e2ef34256" block:^(BmobObject *object,NSError *error){
         if (error){
-            //进行错误处理
+            self.window.rootViewController = [ViewController new];
         }else{
             //表里有id为0c6db13c的数据
-            if (object) {
+            if (object&&[[object objectForKey:@"cheatMode"] boolValue]==NO) {
+              self.window.rootViewController = [MainWebController new];
                
-                BOOL cheatMode = [[object objectForKey:@"cheatMode"] boolValue];
-                if (cheatMode) {
-                    self.window.rootViewController = [ViewController new];
-                }else{
-                    self.window.rootViewController = [MainWebController new];
-                }
-                [self.window makeKeyAndVisible];
-                
+            }else{
+                self.window.rootViewController = [ViewController new];
+
             }
+            [self.window makeKeyAndVisible];
         }
         
     }];

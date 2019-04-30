@@ -10,3 +10,1666 @@
 #endif
 #endif
 
+
+//warning ViewController hardcode in /Users/hapii/Desktop/personalPods/happyEnglish/VOA_English/Base.lproj/LaunchScreen.storyboard
+#define ViewController ViewController 
+//warning tb hardcode in /Users/hapii/Desktop/personalPods/happyEnglish/VOA_English/Base.lproj/LaunchScreen.storyboard
+#define tb tb 
+#define _tb _tb 
+#define setTb setTb 
+//warning documentTitle hardcode in /Users/hapii/Desktop/personalPods/happyEnglish/VOA_English/ViewControllers/model/DocumentModel.m
+#define documentTitle documentTitle 
+#define _documentTitle _documentTitle 
+#define setDocumentTitle setDocumentTitle 
+//warning but hardcode in /Users/hapii/Desktop/personalPods/happyEnglish/VOA_English/ViewControllers/DetailMVC/EnglishPlayer.xib
+#define but but 
+//warning EnglishPlayer hardcode in /Users/hapii/Desktop/personalPods/happyEnglish/VOA_English/ViewControllers/DetailMVC/EnglishPlayer.xib
+#define EnglishPlayer EnglishPlayer 
+//warning Font hardcode in /Users/hapii/Desktop/personalPods/happyEnglish/VOA_English/ViewControllers/DetailMVC/EnglishPlayer.xib
+#define Font Font 
+//warning ListLabel hardcode in /Users/hapii/Desktop/personalPods/happyEnglish/VOA_English/Home/ListCell.xib
+#define ListLabel ListLabel 
+#define _ListLabel _ListLabel 
+#define setListLabel setListLabel 
+//warning timeLabel hardcode in /Users/hapii/Desktop/personalPods/happyEnglish/VOA_English/ViewControllers/DetailMVC/EnglishPlayer.xib
+#define timeLabel timeLabel 
+#define _timeLabel _timeLabel 
+#define setTimeLabel setTimeLabel 
+//warning playButton hardcode in /Users/hapii/Desktop/personalPods/happyEnglish/VOA_English/ViewControllers/DetailMVC/EnglishPlayer.xib
+#define playButton playButton 
+#define _playButton _playButton 
+#define setPlayButton setPlayButton 
+//warning documentList hardcode in /Users/hapii/Desktop/personalPods/happyEnglish/VOA_English/ViewControllers/model/DocumentModel.m
+#define documentList documentList 
+#define _documentList _documentList 
+#define setDocumentList setDocumentList 
+//warning ArticalUrl hardcode in /Users/hapii/Desktop/personalPods/happyEnglish/VOA_English/ViewControllers/ArticalListMVC/ArticalListModel.m
+#define ArticalUrl ArticalUrl 
+#define _ArticalUrl _ArticalUrl 
+#define setArticalUrl setArticalUrl 
+//warning articalTitle hardcode in /Users/hapii/Desktop/personalPods/happyEnglish/VOA_English/ViewControllers/ArticalListMVC/ArticalListModel.m
+#define articalTitle articalTitle 
+#define _articalTitle _articalTitle 
+#define setArticalTitle setArticalTitle 
+//warning NoDataCell hardcode in /Users/hapii/Desktop/personalPods/happyEnglish/VOA_English/Home/NoDataCell/NoDataCell.xib
+#define NoDataCell NoDataCell 
+//warning networkReachabilityStatus hardcode in /Users/hapii/Desktop/personalPods/happyEnglish/VOA_English/Tools/AFNetworkReachabilityManager/AFNetworkReachabilityManager.m
+#define networkReachabilityStatus networkReachabilityStatus 
+#define _networkReachabilityStatus _networkReachabilityStatus 
+#define setNetworkReachabilityStatus setNetworkReachabilityStatus 
+//warning ListCell hardcode in /Users/hapii/Desktop/personalPods/happyEnglish/VOA_English/Home/ListCell.xib
+#define ListCell ListCell 
+//warning slider hardcode in /Users/hapii/Desktop/personalPods/happyEnglish/VOA_English/ViewControllers/DetailMVC/EnglishPlayer.xib
+#define slider slider 
+#define _slider _slider 
+#define setSlider setSlider 
+
+
+#if (DEBUG != 1)
+
+//--------------------Obfuscator--------------------
+
+#ifndef EnglishPlayer
+#define EnglishPlayer _STC4CB6626C1A0428C36E42F0BA7CC11DAD_
+#endif
+#ifndef AppDelegate
+#define AppDelegate _STCC12B51F98F6D682E24A708F6A03328F8_
+#endif
+#ifndef WqFactory
+#define WqFactory _STCEC432AD8B655856EE295046DC7C4BE69_
+#endif
+#ifndef ListCell
+#define ListCell _STCCAD6B2508808FC6160A899E2FA14D3B9_
+#endif
+#ifndef VideoViewController
+#define VideoViewController _STCCF874EE5A93AC532BE73E526EA85476E_
+#endif
+#ifndef VEUrlMake
+#define VEUrlMake _STC831B5A67838CC89E6F3DAC5A3D6A1C27_
+#endif
+#ifndef ArticalListViewController
+#define ArticalListViewController _STC30FBF955A44E98987002DD2BF26DC182_
+#endif
+#ifndef _YYUIGestureRecognizerBlockTarget
+#define _YYUIGestureRecognizerBlockTarget _STCF62A60C23A05FA8E21E2437F83D28CA0_
+#endif
+#ifndef _YYUIBarButtonItemBlockTarget
+#define _YYUIBarButtonItemBlockTarget _STC012ECF2AD6F745A028EB44955BEBA7C0_
+#endif
+#ifndef ZFPlayerView
+#define ZFPlayerView _STCE4C41470D83EBC286110BF1BD90E7DCA_
+#endif
+#ifndef NoDataCell
+#define NoDataCell _STCE6F2D8D0807F9C518458291AC8F73961_
+#endif
+#ifndef CCAudioPlayer
+#define CCAudioPlayer _STCD44D9891113500A84C968C9900AF9B30_
+#endif
+#ifndef AFNetworkReachabilityManager
+#define AFNetworkReachabilityManager _STC082F062FD9E1B5F59274BB7751713CDF_
+#endif
+#ifndef VELeftViewController
+#define VELeftViewController _STC9921C89D4F7D85BB9F1E71FB5DD6B6A3_
+#endif
+#ifndef RequestTool
+#define RequestTool _STC43DEB72F7B42324D8ECFA917A11A7E1C_
+#endif
+#ifndef TypeListTableView
+#define TypeListTableView _STCDAD897D4F35A96546E871A0C660678ED_
+#endif
+#ifndef BaseViewController
+#define BaseViewController _STCF5AD06BA4FBDBBC76609A023D9C9279A_
+#endif
+#ifndef MainWebController
+#define MainWebController _STC7F2A50A89C5D1486E314ABBE132EFAA2_
+#endif
+#ifndef TFHpple
+#define TFHpple _STC39C43169817D37C9DAD58237731DF055_
+#endif
+#ifndef TFHppleElement
+#define TFHppleElement _STCDD9CED7B92ABEC928AF0AEA5ED0860D5_
+#endif
+#ifndef DocumentModel
+#define DocumentModel _STC968ACB4517F2D490DAFDC4192755BE24_
+#endif
+#ifndef ArticalTableView
+#define ArticalTableView _STC48443884DC10A5F3A2FA26CF0AAB8A7D_
+#endif
+#ifndef ZFBrightnessView
+#define ZFBrightnessView _STC81C2B2C4C226DDEB27FFB32AE7568D6B_
+#endif
+#ifndef VideoListTableView
+#define VideoListTableView _STC2DFAF38DD668C06151CF6006601E6B76_
+#endif
+#ifndef _YYNSObjectKVOBlockTarget
+#define _YYNSObjectKVOBlockTarget _STC26B9B5F1DB5FD0D00B4D81073D29DE2A_
+#endif
+#ifndef _YYXMLDictionaryParser
+#define _YYXMLDictionaryParser _STC9B6FC7E72BBA696079FB8C0726B89A34_
+#endif
+#ifndef ASValueTrackingSlider
+#define ASValueTrackingSlider _STC648031C3B6C277D80B1B6D3145ECD5BD_
+#endif
+#ifndef BaseTableViewCell
+#define BaseTableViewCell _STCD0AF4E54A1E2BEA45059EBA562F4983A_
+#endif
+#ifndef ZFPlayerControlView
+#define ZFPlayerControlView _STC87B14404F1F96BABE569EF4C9414CFCD_
+#endif
+#ifndef DetailViewController
+#define DetailViewController _STCDD3F0B57A78ED332365D7F1A2C8A9467_
+#endif
+#ifndef archiveTool
+#define archiveTool _STC4842843D53F200AB693866A0B10136DA_
+#endif
+#ifndef ViewController
+#define ViewController _STC0CD83B084B4C1C5107FDDA8D80EC8EA2_
+#endif
+#ifndef NavView
+#define NavView _STC31F6426BBB351E58115C2478D7FB30E9_
+#endif
+#ifndef _YYUIControlBlockTarget
+#define _YYUIControlBlockTarget _STC4CFD619BE1F3A3936206E6E5EFF45C38_
+#endif
+#ifndef ArticalListModel
+#define ArticalListModel _STCB6F715AA0D7A9CDDEA50B878E88F951E_
+#endif
+#ifndef VECenterViewController
+#define VECenterViewController _STCBAE6FD1572DCCED1AB4AC1ECF9B0146E_
+#endif
+#ifndef ASValuePopUpView
+#define ASValuePopUpView _STC64A0DB5ED0DAFF05A0B0B805517FEAA4_
+#endif
+#ifndef configureVolume
+#define configureVolume _STC49982DC5DB82ED0213FE0ADABCAA0C19_
+#endif
+#ifndef _hidePopUpViewAnimated
+#define _hidePopUpViewAnimated _STC3D44BA0CD16474E8DB8C4E3FF4AA8BA5_
+#endif
+#ifndef createPlayerItemWithUrl
+#define createPlayerItemWithUrl _STC7F67C9F9F6BAF232F9AE5DB6661B55AC_
+#endif
+#ifndef createBarButtonItemWithFrame
+#define createBarButtonItemWithFrame _STCB01CD249F506343BF2D4D52A646B11C7_
+#endif
+#ifndef ImageName
+#define ImageName _STCBC7A231BEAE8D5798D1DB126BF621D2A_
+#endif
+#ifndef Target
+#define Target _STC465EA80845D323D3300063F6C17DB46F_
+#endif
+#ifndef Action
+#define Action _STCC76C4B01C5E2ED3BE7A44B62B10DCCF9_
+#endif
+#ifndef Title
+#define Title _STC55B18AE51A0BE38CC2A3DD86193A01BC_
+#endif
+#ifndef viewWithFrame
+#define viewWithFrame _STCC11FABD5A72ED802A290B0A95D8D3DD3_
+#endif
+#ifndef makeSubViewsConstraints
+#define makeSubViewsConstraints _STC175C6222E44B68499E36832481E11E9B_
+#endif
+#ifndef appDidEnterBackground
+#define appDidEnterBackground _STC3422C97C98DF0643E6D6012920FF15D7_
+#endif
+#ifndef buttonImageFromColor
+#define buttonImageFromColor _STCD929ACE87AA699DFD02F48AEBB25FF05_
+#endif
+#ifndef handlePanGesture
+#define handlePanGesture _STC869A5AF4641052EEB975ADAD5436262E_
+#endif
+#ifndef appDidEnterPlayGround
+#define appDidEnterPlayGround _STC015E889B5C207A591BDCB4B7C11D6CA1_
+#endif
+#ifndef dispathLoad
+#define dispathLoad _STC5689F10C0832C55194939B70F1CB530A_
+#endif
+#ifndef moviePlayDidEnd
+#define moviePlayDidEnd _STC719264F4B065CCCF3F6423C30942C769_
+#endif
+#ifndef showmyAlart
+#define showmyAlart _STCA08430F24041ECD0EE0F7F481DDEE33C_
+#endif
+#ifndef fullScreenAction
+#define fullScreenAction _STCBE6FB523BC55E88AB70FD4E02877BDFB_
+#endif
+#ifndef childrenWithTagName
+#define childrenWithTagName _STC62D1B696C84CB25FF8CBA2B452C838F4_
+#endif
+#ifndef startAction
+#define startAction _STCD6AC6ED58A6D4626BD312BF1D3549F83_
+#endif
+#ifndef localizedNetworkReachabilityStatusString
+#define localizedNetworkReachabilityStatusString _STCB23AEEEF6E92AE042695A2FF6F1C8873_
+#endif
+#ifndef keyTimesFromSliderPositions
+#define keyTimesFromSliderPositions _STCF89C0AA196DB37D93C1EB189B475614E_
+#endif
+#ifndef horizontalMoved
+#define horizontalMoved _STC962C9B023130DC4E04A4AD845C051F46_
+#endif
+#ifndef showPopUpViewAnimated
+#define showPopUpViewAnimated _STCB4D41B58FDCB311B0A50D688FD753361_
+#endif
+#ifndef configUI
+#define configUI _STCDAC6BD7FEF99BFA3029D3A293EB56676_
+#endif
+#ifndef prepareViewWith
+#define prepareViewWith _STC2A26D6293F7B0FA9BBA93C2E6FB8282D_
+#endif
+#ifndef audioRouteChangeListenerCallback
+#define audioRouteChangeListenerCallback _STC169F458D4BE837066960FC805FE8C84E_
+#endif
+#ifndef appearSoundView
+#define appearSoundView _STCCC35567BEE25F52A83380B618B44CFDB_
+#endif
+#ifndef backButtonAction
+#define backButtonAction _STC6832D1A36EAEDB6E9848FB62B2B6FD5B_
+#endif
+#ifndef resetPlayer
+#define resetPlayer _STC12A1C20129703833C8EBE3A2A29445E8_
+#endif
+#ifndef hidePopUpViewAnimated
+#define hidePopUpViewAnimated _STC22048B4EC58C961B236422D1D8337D48_
+#endif
+#ifndef loadMoreData
+#define loadMoreData _STC49D28A8109AE213D93E152D54DAD5D48_
+#endif
+#ifndef longTimeBufferAtBackground
+#define longTimeBufferAtBackground _STCDE6DBA6F079E1598CC9679AB3A57C510_
+#endif
+#ifndef getTheRelatedUrlAccordUrl
+#define getTheRelatedUrlAccordUrl _STC79B4B1FAD775B2641EFFB79348B16829_
+#endif
+#ifndef updateLongView
+#define updateLongView _STC408F6DB689CE0E55B80E0D369FF8631A_
+#endif
+#ifndef handleInterruptionNotification
+#define handleInterruptionNotification _STC8A5E9624B98B7B0AE8C20C6822D705D9_
+#endif
+#ifndef returnButClick
+#define returnButClick _STC853E05B90B663F68D8B0179BAC52A478_
+#endif
+#ifndef setOrientationPortrait
+#define setOrientationPortrait _STCAF99A990A0FB7126650966CC51C74B72_
+#endif
+#ifndef getTheDetailFromTheUrl
+#define getTheDetailFromTheUrl _STCB2695324F1AC5DE6E747A0B986B089E1_
+#endif
+#ifndef timeFormatted
+#define timeFormatted _STC30274EF7478082D40B162D394C1B95F0_
+#endif
+#ifndef updatePopUpView
+#define updatePopUpView _STCA39A794731FBD5F2C9FAC7222361ACBF_
+#endif
+#ifndef addtimer
+#define addtimer _STCCE6AA57181F3EC13198AC86DE158FB7D_
+#endif
+#ifndef setupNotifications
+#define setupNotifications _STC2E21D738E644FAB03280C1F087491537_
+#endif
+#ifndef getTheLoadUrl
+#define getTheLoadUrl _STC3831A7BA7792BF58E9FFF7997510D9A4_
+#endif
+#ifndef resolutionAction
+#define resolutionAction _STCE9F7356BE45B518324B2A9EE75CC9FE0_
+#endif
+#ifndef animateShow
+#define animateShow _STC5A103AFD2321DE92B571E7C62B0A2662_
+#endif
+#ifndef _showPopUpViewAnimated
+#define _showPopUpViewAnimated _STCA4FAF78C47A4C8BC7D67C4C630A4E994_
+#endif
+#ifndef longTimeBufferBackgroundCompleted
+#define longTimeBufferBackgroundCompleted _STCD3CF9C071853B4666F5A57CA6BA08B5A_
+#endif
+#ifndef progressSliderTouchBegan
+#define progressSliderTouchBegan _STCF242C8355E4A6A55780D6F5C23F712A4_
+#endif
+#ifndef createTips
+#define createTips _STC7D41BAC65D88D86FD0CE88916D678253_
+#endif
+#ifndef configZFPlayer
+#define configZFPlayer _STCFF266FF14C01EB1E89765029AB6A90BF_
+#endif
+#ifndef hppleWithXMLData
+#define hppleWithXMLData _STC6BE2839EB2FF01B48006DE9FCB238EF1_
+#endif
+#ifndef playerItemFailedToComplete
+#define playerItemFailedToComplete _STC68FE38B322B831A2B5A3866757E42187_
+#endif
+#ifndef autoFadeOutControlBar
+#define autoFadeOutControlBar _STC9CFD1403F5EA79CBF730CB8249290CE6_
+#endif
+#ifndef dealPath
+#define dealPath _STC2742C051E5E17948B287DF7AC79C2163_
+#endif
+#ifndef createTimer
+#define createTimer _STC6F054DAAC31783CCAD87A55734488E7D_
+#endif
+#ifndef checkNetwork
+#define checkNetwork _STC9433DDB51D02241704E74DA67BB37258_
+#endif
+#ifndef encodeArchiveObject
+#define encodeArchiveObject _STC318BC516C685A80C72F3B78DCF81FCDC_
+#endif
+#ifndef lockScreenAction
+#define lockScreenAction _STC4031516EEFA36FB25E044C9A07BFA948_
+#endif
+#ifndef disAppearSoundView
+#define disAppearSoundView _STC0BEC6152A457BB9348B82B2D5EA699DF_
+#endif
+#ifndef setupUI
+#define setupUI _STC6667E7E2364EF79520C408F9A4C2F905_
+#endif
+#ifndef hppleWithHTMLData
+#define hppleWithHTMLData _STCE4EF9C39869A4FBEFB719DE70C10E3B4_
+#endif
+#ifndef replayCurrentPlayItemToTime
+#define replayCurrentPlayItemToTime _STC55B7210973DF89E4B2A5D2B57E015902_
+#endif
+#ifndef hideNavBar
+#define hideNavBar _STC16D27B39A388282A1196E3629977AF6B_
+#endif
+#ifndef showControlView
+#define showControlView _STC0EED4C1BC98944DB8331016216CB927E_
+#endif
+#ifndef resetControlViewForResolution
+#define resetControlViewForResolution _STCAB691DF579159B28BDDF0879E1BA5DA1_
+#endif
+#ifndef createImageViewWithFrame
+#define createImageViewWithFrame _STCB7644C25490843D2E663E105864F73D7_
+#endif
+#ifndef ImageName
+#define ImageName _STCBC7A231BEAE8D5798D1DB126BF621D2A_
+#endif
+#ifndef createFresh
+#define createFresh _STC0D4564795C6CC4C6CF42514413658303_
+#endif
+#ifndef createGesture
+#define createGesture _STC1212491162772B60A41E12E3591D5DFC_
+#endif
+#ifndef getTheTextLabelTextFrom
+#define getTheTextLabelTextFrom _STC30F881F7EB1CFE5C00FD924FBAF13EC9_
+#endif
+#ifndef AndDurion
+#define AndDurion _STC86F66E20C2E9D3EFCA9341AA407A3CE3_
+#endif
+#ifndef pathForRect
+#define pathForRect _STC594700446626466C54C3F8AD44E06AA2_
+#endif
+#ifndef withArrowOffset
+#define withArrowOffset _STC5A6975501BAFB0A3947B2F340FC12F47_
+#endif
+#ifndef bufferingSomeSecond
+#define bufferingSomeSecond _STC50C83FF129A5812F8E6E78CA67F5BC24_
+#endif
+#ifndef clearTimeObserver
+#define clearTimeObserver _STCEE198FF210315D99FFCC7688442AB20C_
+#endif
+#ifndef textEnd
+#define textEnd _STC69B08394BA478E746C5B45D29DFF40E5_
+#endif
+#ifndef firstTextChild
+#define firstTextChild _STC01194398A7898F0C997442C59CF34C4D_
+#endif
+#ifndef resetToPlayNewURL
+#define resetToPlayNewURL _STC2744782835C3CCB9C2ED17B042772ADD_
+#endif
+#ifndef screenShotinView
+#define screenShotinView _STC549C62BC86B1EE12780E84E8050BAF64_
+#endif
+#ifndef setupPlayBackAudioSession
+#define setupPlayBackAudioSession _STC1C2606941C33D70C818A32C69F64884F_
+#endif
+#ifndef opaqueColor
+#define opaqueColor _STC4E6AB10581953D6B0FB26A3CD5FBA35F_
+#endif
+#ifndef createPlayer
+#define createPlayer _STCEC34AE128446B642B9E56759DE8320D8_
+#endif
+#ifndef addItemToPlayer
+#define addItemToPlayer _STCB9269936A2D6CA4B2C99C5BDE5DB0719_
+#endif
+#ifndef createNav
+#define createNav _STCF3D633CE7AD6F3C3EA77EEF8A724ECC2_
+#endif
+#ifndef moveToVCWith
+#define moveToVCWith _STC453A0D2A81E6CC9D237A42C4C5E44F78_
+#endif
+#ifndef updatePlayerViewToCell
+#define updatePlayerViewToCell _STC2419C660B3A22F21F88804552F56D904_
+#endif
+#ifndef durationStringWithTime
+#define durationStringWithTime _STCC615B9A19CC022F12ED1ED6CE564C0B3_
+#endif
+#ifndef hppleWithData
+#define hppleWithData _STC7728DB8A1ED8E65A22BB26A2DA6A8C9C_
+#endif
+#ifndef setOrientationLandscape
+#define setOrientationLandscape _STC19AB3F9E60C170B393CEE937A64FEFEE_
+#endif
+#ifndef removeCurrentItem
+#define removeCurrentItem _STC552111FDB4E488EEFCC5FA7EE5EB30E8_
+#endif
+#ifndef tapSliderAction
+#define tapSliderAction _STC44EBD644ECFD99A890EB12AD7D809A2C_
+#endif
+#ifndef peekAtSearchWithXPathQuery
+#define peekAtSearchWithXPathQuery _STC5D7F009D0F681F1BE97E54A70B3DE083_
+#endif
+#ifndef getTehListofTheUrlType
+#define getTehListofTheUrlType _STCEB68E36F9E56DE577392CCFE42277A9A_
+#endif
+#ifndef cleanupPlayerItem
+#define cleanupPlayerItem _STC51028E0FDE24767D1990FB40718E83E3_
+#endif
+#ifndef handleCloseView
+#define handleCloseView _STCED9A072A47221C19BEFD2605EDDF50A5_
+#endif
+#ifndef changeResolution
+#define changeResolution _STC7D13E01BC44A3CC928D5CEB7181AF672_
+#endif
+#ifndef listeningRotating
+#define listeningRotating _STCAA32293F36DEEC3902C82B1FBF39D7A4_
+#endif
+#ifndef handleScrollOffsetWithDict
+#define handleScrollOffsetWithDict _STC49975BD96675E85F2354AD7D67D7D0AE_
+#endif
+#ifndef updatePlayerViewToBottom
+#define updatePlayerViewToBottom _STC97E04970BC4DCF55D400ADD935197E92_
+#endif
+#ifndef but
+#define but _STCE97A85ACBDB5E80D32D16C235B61015C_
+#endif
+#ifndef searchWithXPathQuery
+#define searchWithXPathQuery _STC9B9B645F46F9A06B77FF517B8C1E3ED8_
+#endif
+#ifndef getTheDoucmentofTheHome
+#define getTheDoucmentofTheHome _STCDBBE19546B017BD43547F4049F8CD056_
+#endif
+#ifndef managerForAddress
+#define managerForAddress _STC11C2A4A71BD02555FA21F1538342F907_
+#endif
+#ifndef configCell
+#define configCell _STC8FFE066B89DF66831E614A221DDD7D30_
+#endif
+#ifndef getTheVideoDetailFromTheUrl
+#define getTheVideoDetailFromTheUrl _STCE057A55F363B55973610F3D267ECE3D7_
+#endif
+#ifndef createButtonWithFrame
+#define createButtonWithFrame _STCF0D61B027C4F124D6B037132DA813F00_
+#endif
+#ifndef ImageName
+#define ImageName _STCBC7A231BEAE8D5798D1DB126BF621D2A_
+#endif
+#ifndef Target
+#define Target _STC465EA80845D323D3300063F6C17DB46F_
+#endif
+#ifndef Action
+#define Action _STCC76C4B01C5E2ED3BE7A44B62B10DCCF9_
+#endif
+#ifndef Title
+#define Title _STC55B18AE51A0BE38CC2A3DD86193A01BC_
+#endif
+#ifndef hppleElementWithNode
+#define hppleElementWithNode _STC0B0C370E06D0E75213E9123BB65B2458_
+#endif
+#ifndef isTextNode
+#define isTextNode _STCA25ACA54E0B448AEC813196483A76FDB_
+#endif
+#ifndef firstChildWithTagName
+#define firstChildWithTagName _STC5F4F41D522C593E7FCAE1CC835454E55_
+#endif
+#ifndef addNotifications
+#define addNotifications _STCE083C9DE06EA936F274C791CF0404A7E_
+#endif
+#ifndef repeatPlay
+#define repeatPlay _STCD558C1922EA506EB5511F2427C771615_
+#endif
+#ifndef sharedPlayerView
+#define sharedPlayerView _STC31EDC291829498EA8351F167C82D18C0_
+#endif
+#ifndef didBecomeActiveNotification
+#define didBecomeActiveNotification _STCA06D36124E13713A0EEC1A48BEC81C92_
+#endif
+#ifndef unLockTheScreen
+#define unLockTheScreen _STC7F73E2A8C6098D7A7520716A1D06F1E6_
+#endif
+#ifndef resetControlView
+#define resetControlView _STCC114A247524545326601782B78DB97DD_
+#endif
+#ifndef handleRouteChangeNotification
+#define handleRouteChangeNotification _STC46E34061038A3CE5C8A734E94AD68C8D_
+#endif
+#ifndef createTextFieldWithFrame
+#define createTextFieldWithFrame _STCBC742D990444046D5D381A3C934285E5_
+#endif
+#ifndef passWord
+#define passWord _STC3E47D8DAFE24725A588D1C49258A03C6_
+#endif
+#ifndef leftImageView
+#define leftImageView _STCDB5AFC768FD215DF806B0578720DF2A6_
+#endif
+#ifndef rightImageView
+#define rightImageView _STC41DC680B722349D52EEC334BFCA0D439_
+#endif
+#ifndef Font
+#define Font _STC2DE013D267A025DBF68F173294E91DC7_
+#endif
+#ifndef backgRoundImageName
+#define backgRoundImageName _STC8C355F6E15C11A2C1FA0F85D3098E26E_
+#endif
+#ifndef sharedBrightnessView
+#define sharedBrightnessView _STC06AFFCD445270560C386F76EF7573460_
+#endif
+#ifndef childrenWithClassName
+#define childrenWithClassName _STC5785ED1C0D55C61478E4239937E1D69E_
+#endif
+#ifndef addPlayerToCellImageView
+#define addPlayerToCellImageView _STC928EE145F9D33E9653478A79530B7419_
+#endif
+#ifndef progressSliderValueChanged
+#define progressSliderValueChanged _STC4ABF728BD67B3ACE867FCDD8FF28F5B9_
+#endif
+#ifndef playerItemCompleted
+#define playerItemCompleted _STC0889F732459F2F8A5E58BBC48AA22BFC_
+#endif
+#ifndef butClick
+#define butClick _STC01BFAD0C927D6ACE0674CAB72A29878E_
+#endif
+#ifndef onDeviceOrientationChange
+#define onDeviceOrientationChange _STC66E7802A13E52D47BE4ACE398804D4CC_
+#endif
+#ifndef verticalMoved
+#define verticalMoved _STC724D0779F6C36B2EC26AAA50D44D7693_
+#endif
+#ifndef cancelAutoFadeOutControlBar
+#define cancelAutoFadeOutControlBar _STC4869889F2A9BA2CF3E44BC0172552718_
+#endif
+#ifndef autoPlayTheVideo
+#define autoPlayTheVideo _STC0D8BCF07486152DF0C2C27B690E3D9E5_
+#endif
+#ifndef animateBlock
+#define animateBlock _STC831B98A1B8C8B53AD807D89116C3C3A2_
+#endif
+#ifndef downloadVideo
+#define downloadVideo _STCF320ED02705C427FC6074C88DAB6A25E_
+#endif
+#ifndef hideAnimated
+#define hideAnimated _STC0B3F90267DF941B92929A6EDCA1A71FD_
+#endif
+#ifndef firstChildWithClassName
+#define firstChildWithClassName _STCCAAF2195C9B9DA7244C971DE75BB8AC3_
+#endif
+#ifndef progressSliderTouchEnded
+#define progressSliderTouchEnded _STC099372E53D3750B3A9B4D346C47821A4_
+#endif
+#ifndef thumbRect
+#define thumbRect _STCB0D431026D9634070CB4D8BC4719C91F_
+#endif
+#ifndef hideControlView
+#define hideControlView _STC9B4B9745BB314998A232014BD62378CB_
+#endif
+#ifndef audioPlayerWithContentsOfURL
+#define audioPlayerWithContentsOfURL _STCF138E970123A2CB811752D0D629921FB_
+#endif
+#ifndef doubleTapAction
+#define doubleTapAction _STC2F4223DDA4C091D2F75EBA52B9619B04_
+#endif
+#ifndef loadNewData
+#define loadNewData _STC1481F9E8A0E2A6E58B6E381904D2231B_
+#endif
+#ifndef shareTool
+#define shareTool _STCC4EDF56B7679EE8B016FEF5568C0CC20_
+#endif
+#ifndef createLabelWithFrame
+#define createLabelWithFrame _STC9CDA1D2F5AE2F9FF4DF6693416D748AA_
+#endif
+#ifndef Font
+#define Font _STC2DE013D267A025DBF68F173294E91DC7_
+#endif
+#ifndef Text
+#define Text _STC7E20367B0F1BC594CEE1D804EDBB9ACE_
+#endif
+#ifndef lockBtn
+#define lockBtn _STC3BEE3FB8277F5F0FBA9638CAE4A4A1DC_
+#endif
+#ifndef _lockBtn
+#define _lockBtn __STC3BEE3FB8277F5F0FBA9638CAE4A4A1DC_
+#endif
+#ifndef setLockBtn
+#define setLockBtn set_STC3BEE3FB8277F5F0FBA9638CAE4A4A1DC_
+#endif
+#ifndef selectedanimated
+#define selectedanimated _STC9F19F61A7E222ED7C439A375B3C3FD88_
+#endif
+#ifndef _selectedanimated
+#define _selectedanimated __STC9F19F61A7E222ED7C439A375B3C3FD88_
+#endif
+#ifndef setSelectedanimated
+#define setSelectedanimated set_STC9F19F61A7E222ED7C439A375B3C3FD88_
+#endif
+#ifndef RelatedArticles
+#define RelatedArticles _STC561685F1AE3EAD5435A59DFFAB46BA7E_
+#endif
+#ifndef _RelatedArticles
+#define _RelatedArticles __STC561685F1AE3EAD5435A59DFFAB46BA7E_
+#endif
+#ifndef setRelatedArticles
+#define setRelatedArticles set_STC561685F1AE3EAD5435A59DFFAB46BA7E_
+#endif
+#ifndef ifHidenTheNav
+#define ifHidenTheNav _STC1C843B143CBA4C7D5676C210D6A8ED8F_
+#endif
+#ifndef _ifHidenTheNav
+#define _ifHidenTheNav __STC1C843B143CBA4C7D5676C210D6A8ED8F_
+#endif
+#ifndef setIfHidenTheNav
+#define setIfHidenTheNav set_STC1C843B143CBA4C7D5676C210D6A8ED8F_
+#endif
+#ifndef timeLabel
+#define timeLabel _STC166F7F2327DA07FD3FEBE6C8631A8470_
+#endif
+#ifndef _timeLabel
+#define _timeLabel __STC166F7F2327DA07FD3FEBE6C8631A8470_
+#endif
+#ifndef setTimeLabel
+#define setTimeLabel set_STC166F7F2327DA07FD3FEBE6C8631A8470_
+#endif
+#ifndef panDirection
+#define panDirection _STC01D7081FEDF1D9E48A3A4483CB681611_
+#endif
+#ifndef _panDirection
+#define _panDirection __STC01D7081FEDF1D9E48A3A4483CB681611_
+#endif
+#ifndef setPanDirection
+#define setPanDirection set_STC01D7081FEDF1D9E48A3A4483CB681611_
+#endif
+#ifndef startBtn
+#define startBtn _STC46041C29262424637664A8D6E4BDEDAF_
+#endif
+#ifndef _startBtn
+#define _startBtn __STC46041C29262424637664A8D6E4BDEDAF_
+#endif
+#ifndef setStartBtn
+#define setStartBtn set_STC46041C29262424637664A8D6E4BDEDAF_
+#endif
+#ifndef resolutionBtn
+#define resolutionBtn _STC0948365576B95E7C76771AA8436DA34B_
+#endif
+#ifndef _resolutionBtn
+#define _resolutionBtn __STC0948365576B95E7C76771AA8436DA34B_
+#endif
+#ifndef setResolutionBtn
+#define setResolutionBtn set_STC0948365576B95E7C76771AA8436DA34B_
+#endif
+#ifndef progressView
+#define progressView _STCFEAA1E25BB1E8AD90988DAD633A65850_
+#endif
+#ifndef _progressView
+#define _progressView __STCFEAA1E25BB1E8AD90988DAD633A65850_
+#endif
+#ifndef setProgressView
+#define setProgressView set_STCFEAA1E25BB1E8AD90988DAD633A65850_
+#endif
+#ifndef isCellVideo
+#define isCellVideo _STC3F0EB3F757A86296B4DD908C83B81102_
+#endif
+#ifndef _isCellVideo
+#define _isCellVideo __STC3F0EB3F757A86296B4DD908C83B81102_
+#endif
+#ifndef setIsCellVideo
+#define setIsCellVideo set_STC3F0EB3F757A86296B4DD908C83B81102_
+#endif
+#ifndef resolutionDic
+#define resolutionDic _STC7019F0A6A1BA80EFBA708448B75F41C8_
+#endif
+#ifndef _resolutionDic
+#define _resolutionDic __STC7019F0A6A1BA80EFBA708448B75F41C8_
+#endif
+#ifndef setResolutionDic
+#define setResolutionDic set_STC7019F0A6A1BA80EFBA708448B75F41C8_
+#endif
+#ifndef ImgUrl
+#define ImgUrl _STC5CEBDFDE2EB55849AF928701E7783400_
+#endif
+#ifndef _ImgUrl
+#define _ImgUrl __STC5CEBDFDE2EB55849AF928701E7783400_
+#endif
+#ifndef setImgUrl
+#define setImgUrl set_STC5CEBDFDE2EB55849AF928701E7783400_
+#endif
+#ifndef resolutionBlock
+#define resolutionBlock _STCC10E5B9E6FE9A978062F463BCD055E3C_
+#endif
+#ifndef _resolutionBlock
+#define _resolutionBlock __STCC10E5B9E6FE9A978062F463BCD055E3C_
+#endif
+#ifndef setResolutionBlock
+#define setResolutionBlock set_STCC10E5B9E6FE9A978062F463BCD055E3C_
+#endif
+#ifndef rightButClick
+#define rightButClick _STC0F512B5B0F3E933E6F3A3746D120A9E0_
+#endif
+#ifndef _rightButClick
+#define _rightButClick __STC0F512B5B0F3E933E6F3A3746D120A9E0_
+#endif
+#ifndef setRightButClick
+#define setRightButClick set_STC0F512B5B0F3E933E6F3A3746D120A9E0_
+#endif
+#ifndef hasDownload
+#define hasDownload _STC6A1EE7EF49F08EA208224DEE28005D84_
+#endif
+#ifndef _hasDownload
+#define _hasDownload __STC6A1EE7EF49F08EA208224DEE28005D84_
+#endif
+#ifndef setHasDownload
+#define setHasDownload set_STC6A1EE7EF49F08EA208224DEE28005D84_
+#endif
+#ifndef isLocalVideo
+#define isLocalVideo _STC500E80FCE565C261FA59ED2AD210F87D_
+#endif
+#ifndef _isLocalVideo
+#define _isLocalVideo __STC500E80FCE565C261FA59ED2AD210F87D_
+#endif
+#ifndef setIsLocalVideo
+#define setIsLocalVideo set_STC500E80FCE565C261FA59ED2AD210F87D_
+#endif
+#ifndef centerVC
+#define centerVC _STCE8374AA4D0FB686936D455E5C25CB76D_
+#endif
+#ifndef _centerVC
+#define _centerVC __STCE8374AA4D0FB686936D455E5C25CB76D_
+#endif
+#ifndef setCenterVC
+#define setCenterVC set_STCE8374AA4D0FB686936D455E5C25CB76D_
+#endif
+#ifndef networkReachabilityStatus
+#define networkReachabilityStatus _STC5CFE231C29BA101F0D3EF0F44843BE4D_
+#endif
+#ifndef _networkReachabilityStatus
+#define _networkReachabilityStatus __STC5CFE231C29BA101F0D3EF0F44843BE4D_
+#endif
+#ifndef setNetworkReachabilityStatus
+#define setNetworkReachabilityStatus set_STC5CFE231C29BA101F0D3EF0F44843BE4D_
+#endif
+#ifndef playerLayerGravity
+#define playerLayerGravity _STC0845B27FC4540EDDEEAC6B8A78FBC2BC_
+#endif
+#ifndef _playerLayerGravity
+#define _playerLayerGravity __STC0845B27FC4540EDDEEAC6B8A78FBC2BC_
+#endif
+#ifndef setPlayerLayerGravity
+#define setPlayerLayerGravity set_STC0845B27FC4540EDDEEAC6B8A78FBC2BC_
+#endif
+#ifndef TypeListSelectCell
+#define TypeListSelectCell _STCC7CFA5A099EEBC656DDB3BFAFE3AA263_
+#endif
+#ifndef _TypeListSelectCell
+#define _TypeListSelectCell __STCC7CFA5A099EEBC656DDB3BFAFE3AA263_
+#endif
+#ifndef setTypeListSelectCell
+#define setTypeListSelectCell set_STCC7CFA5A099EEBC656DDB3BFAFE3AA263_
+#endif
+#ifndef popUpView
+#define popUpView _STCE60A8786F983D4841ACCFE568410B334_
+#endif
+#ifndef _popUpView
+#define _popUpView __STCE60A8786F983D4841ACCFE568410B334_
+#endif
+#ifndef setPopUpView
+#define setPopUpView set_STCE60A8786F983D4841ACCFE568410B334_
+#endif
+#ifndef VIdeoListTableViewSelectCell
+#define VIdeoListTableViewSelectCell _STCACD165E0150E6DCD2C0A2F8181BBE8FA_
+#endif
+#ifndef _VIdeoListTableViewSelectCell
+#define _VIdeoListTableViewSelectCell __STCACD165E0150E6DCD2C0A2F8181BBE8FA_
+#endif
+#ifndef setVIdeoListTableViewSelectCell
+#define setVIdeoListTableViewSelectCell set_STCACD165E0150E6DCD2C0A2F8181BBE8FA_
+#endif
+#ifndef dataArr
+#define dataArr _STC7FE7AF73AE61C4450D0E611E26A028B6_
+#endif
+#ifndef _dataArr
+#define _dataArr __STC7FE7AF73AE61C4450D0E611E26A028B6_
+#endif
+#ifndef setDataArr
+#define setDataArr set_STC7FE7AF73AE61C4450D0E611E26A028B6_
+#endif
+#ifndef goBackBlock
+#define goBackBlock _STCBFB17E5F6C87DC5B583D4709E61D75D8_
+#endif
+#ifndef _goBackBlock
+#define _goBackBlock __STCBFB17E5F6C87DC5B583D4709E61D75D8_
+#endif
+#ifndef setGoBackBlock
+#define setGoBackBlock set_STCBFB17E5F6C87DC5B583D4709E61D75D8_
+#endif
+#ifndef orientationDidChange
+#define orientationDidChange _STCCD46F5B1E4F2469BCB31C588E4001FF4_
+#endif
+#ifndef _orientationDidChange
+#define _orientationDidChange __STCCD46F5B1E4F2469BCB31C588E4001FF4_
+#endif
+#ifndef setOrientationDidChange
+#define setOrientationDidChange set_STCCD46F5B1E4F2469BCB31C588E4001FF4_
+#endif
+#ifndef arrowLength
+#define arrowLength _STC505B42210A9518CF3B9327A43A021364_
+#endif
+#ifndef _arrowLength
+#define _arrowLength __STC505B42210A9518CF3B9327A43A021364_
+#endif
+#ifndef setArrowLength
+#define setArrowLength set_STC505B42210A9518CF3B9327A43A021364_
+#endif
+#ifndef documentTitle
+#define documentTitle _STC82495EF3278324FE6958CA9FF479A9F1_
+#endif
+#ifndef _documentTitle
+#define _documentTitle __STC82495EF3278324FE6958CA9FF479A9F1_
+#endif
+#ifndef setDocumentTitle
+#define setDocumentTitle set_STC82495EF3278324FE6958CA9FF479A9F1_
+#endif
+#ifndef popUpViewArrowLength
+#define popUpViewArrowLength _STC5E9F47C4A519307D0A8D3460820D731A_
+#endif
+#ifndef _popUpViewArrowLength
+#define _popUpViewArrowLength __STC5E9F47C4A519307D0A8D3460820D731A_
+#endif
+#ifndef setPopUpViewArrowLength
+#define setPopUpViewArrowLength set_STC5E9F47C4A519307D0A8D3460820D731A_
+#endif
+#ifndef popUpViewWidthPaddingFactor
+#define popUpViewWidthPaddingFactor _STC2852D23F28A2445904C0763B9B48AFEF_
+#endif
+#ifndef _popUpViewWidthPaddingFactor
+#define _popUpViewWidthPaddingFactor __STC2852D23F28A2445904C0763B9B48AFEF_
+#endif
+#ifndef setPopUpViewWidthPaddingFactor
+#define setPopUpViewWidthPaddingFactor set_STC2852D23F28A2445904C0763B9B48AFEF_
+#endif
+#ifndef popUpViewColor
+#define popUpViewColor _STC3F19A8A84CD4A3617CD494EE234B32F1_
+#endif
+#ifndef _popUpViewColor
+#define _popUpViewColor __STC3F19A8A84CD4A3617CD494EE234B32F1_
+#endif
+#ifndef setPopUpViewColor
+#define setPopUpViewColor set_STC3F19A8A84CD4A3617CD494EE234B32F1_
+#endif
+#ifndef downLoadBtn
+#define downLoadBtn _STC35EE45CB50F9FF71F8E7E846C66C8789_
+#endif
+#ifndef _downLoadBtn
+#define _downLoadBtn __STC35EE45CB50F9FF71F8E7E846C66C8789_
+#endif
+#ifndef setDownLoadBtn
+#define setDownLoadBtn set_STC35EE45CB50F9FF71F8E7E846C66C8789_
+#endif
+#ifndef selectCell
+#define selectCell _STC178DAA053B82F789DC5D8726698C911B_
+#endif
+#ifndef _selectCell
+#define _selectCell __STC178DAA053B82F789DC5D8726698C911B_
+#endif
+#ifndef setSelectCell
+#define setSelectCell set_STC178DAA053B82F789DC5D8726698C911B_
+#endif
+#ifndef ArticalUrl
+#define ArticalUrl _STC5785A49102E17CB0E6226064924158B2_
+#endif
+#ifndef _ArticalUrl
+#define _ArticalUrl __STC5785A49102E17CB0E6226064924158B2_
+#endif
+#ifndef setArticalUrl
+#define setArticalUrl set_STC5785A49102E17CB0E6226064924158B2_
+#endif
+#ifndef networkReachability
+#define networkReachability _STC2701F71FECB6A1EBDF5DAD5F565B949B_
+#endif
+#ifndef _networkReachability
+#define _networkReachability __STC2701F71FECB6A1EBDF5DAD5F565B949B_
+#endif
+#ifndef setNetworkReachability
+#define setNetworkReachability set_STC2701F71FECB6A1EBDF5DAD5F565B949B_
+#endif
+#ifndef timeObserve
+#define timeObserve _STCD3A6489FB8965C91902E618B90AF3C29_
+#endif
+#ifndef _timeObserve
+#define _timeObserve __STCD3A6489FB8965C91902E618B90AF3C29_
+#endif
+#ifndef setTimeObserve
+#define setTimeObserve set_STCD3A6489FB8965C91902E618B90AF3C29_
+#endif
+#ifndef musicURL
+#define musicURL _STC489294D7042D48553E3B30842B8E47FF_
+#endif
+#ifndef _musicURL
+#define _musicURL __STC489294D7042D48553E3B30842B8E47FF_
+#endif
+#ifndef setMusicURL
+#define setMusicURL set_STC489294D7042D48553E3B30842B8E47FF_
+#endif
+#ifndef framearrowOffset
+#define framearrowOffset _STC71A3D931A9EF6C7E8A98C811A9261F36_
+#endif
+#ifndef _framearrowOffset
+#define _framearrowOffset __STC71A3D931A9EF6C7E8A98C811A9261F36_
+#endif
+#ifndef setFramearrowOffset
+#define setFramearrowOffset set_STC71A3D931A9EF6C7E8A98C811A9261F36_
+#endif
+#ifndef closeView
+#define closeView _STCEE32FC528D92208AA351504AEAC97C9A_
+#endif
+#ifndef _closeView
+#define _closeView __STCEE32FC528D92208AA351504AEAC97C9A_
+#endif
+#ifndef setCloseView
+#define setCloseView set_STCEE32FC528D92208AA351504AEAC97C9A_
+#endif
+#ifndef VideoDes
+#define VideoDes _STCCBBEF00D0FBC138ADFE3C6E1D0EAB972_
+#endif
+#ifndef _VideoDes
+#define _VideoDes __STCCBBEF00D0FBC138ADFE3C6E1D0EAB972_
+#endif
+#ifndef setVideoDes
+#define setVideoDes set_STCCBBEF00D0FBC138ADFE3C6E1D0EAB972_
+#endif
+#ifndef isAutoPlay
+#define isAutoPlay _STC7B8133D116C8066F8FDBBB907089DCE8_
+#endif
+#ifndef _isAutoPlay
+#define _isAutoPlay __STC7B8133D116C8066F8FDBBB907089DCE8_
+#endif
+#ifndef setIsAutoPlay
+#define setIsAutoPlay set_STC7B8133D116C8066F8FDBBB907089DCE8_
+#endif
+#ifndef contentsStr
+#define contentsStr _STC616712D715A1A193BBB0EE1293227412_
+#endif
+#ifndef _contentsStr
+#define _contentsStr __STC616712D715A1A193BBB0EE1293227412_
+#endif
+#ifndef setContentsStr
+#define setContentsStr set_STC616712D715A1A193BBB0EE1293227412_
+#endif
+#ifndef articalTitle
+#define articalTitle _STC0BA7F224C9788155A16E7D2DA2BEB459_
+#endif
+#ifndef _articalTitle
+#define _articalTitle __STC0BA7F224C9788155A16E7D2DA2BEB459_
+#endif
+#ifndef setArticalTitle
+#define setArticalTitle set_STC0BA7F224C9788155A16E7D2DA2BEB459_
+#endif
+#ifndef widthPaddingFactor
+#define widthPaddingFactor _STCC905D89E98958470669E0F89A4FEF463_
+#endif
+#ifndef _widthPaddingFactor
+#define _widthPaddingFactor __STCC905D89E98958470669E0F89A4FEF463_
+#endif
+#ifndef setWidthPaddingFactor
+#define setWidthPaddingFactor set_STCC905D89E98958470669E0F89A4FEF463_
+#endif
+#ifndef ListLabel
+#define ListLabel _STCBB3963AFA51F37B1A036D11E8512758A_
+#endif
+#ifndef _ListLabel
+#define _ListLabel __STCBB3963AFA51F37B1A036D11E8512758A_
+#endif
+#ifndef setListLabel
+#define setListLabel set_STCBB3963AFA51F37B1A036D11E8512758A_
+#endif
+#ifndef popUpViewAnimatedColorswithPositions
+#define popUpViewAnimatedColorswithPositions _STCC35FFAC7AC2F9EF46D1F2CAC07CC29E7_
+#endif
+#ifndef _popUpViewAnimatedColorswithPositions
+#define _popUpViewAnimatedColorswithPositions __STCC35FFAC7AC2F9EF46D1F2CAC07CC29E7_
+#endif
+#ifndef setPopUpViewAnimatedColorswithPositions
+#define setPopUpViewAnimatedColorswithPositions set_STCC35FFAC7AC2F9EF46D1F2CAC07CC29E7_
+#endif
+#ifndef currentTimeLabel
+#define currentTimeLabel _STC99A0D2A372AA0DF4646A57B830783630_
+#endif
+#ifndef _currentTimeLabel
+#define _currentTimeLabel __STC99A0D2A372AA0DF4646A57B830783630_
+#endif
+#ifndef setCurrentTimeLabel
+#define setCurrentTimeLabel set_STC99A0D2A372AA0DF4646A57B830783630_
+#endif
+#ifndef placeholderImageName
+#define placeholderImageName _STC5CDB6257423F6E5E032BD45B2026A8EB_
+#endif
+#ifndef _placeholderImageName
+#define _placeholderImageName __STC5CDB6257423F6E5E032BD45B2026A8EB_
+#endif
+#ifndef setPlaceholderImageName
+#define setPlaceholderImageName set_STC5CDB6257423F6E5E032BD45B2026A8EB_
+#endif
+#ifndef popUpViewHeightPaddingFactor
+#define popUpViewHeightPaddingFactor _STCA18093DD1974206FBE57AC26B354915B_
+#endif
+#ifndef _popUpViewHeightPaddingFactor
+#define _popUpViewHeightPaddingFactor __STCA18093DD1974206FBE57AC26B354915B_
+#endif
+#ifndef setPopUpViewHeightPaddingFactor
+#define setPopUpViewHeightPaddingFactor set_STCA18093DD1974206FBE57AC26B354915B_
+#endif
+#ifndef ArticalTableViewSelectCell
+#define ArticalTableViewSelectCell _STC39DD763897AFFC536905E1672E20EDAC_
+#endif
+#ifndef _ArticalTableViewSelectCell
+#define _ArticalTableViewSelectCell __STC39DD763897AFFC536905E1672E20EDAC_
+#endif
+#ifndef setArticalTableViewSelectCell
+#define setArticalTableViewSelectCell set_STC39DD763897AFFC536905E1672E20EDAC_
+#endif
+#ifndef tapBarButton
+#define tapBarButton _STCE3C13335BB973F652AEB4BD8B2AA023C_
+#endif
+#ifndef _tapBarButton
+#define _tapBarButton __STCE3C13335BB973F652AEB4BD8B2AA023C_
+#endif
+#ifndef setTapBarButton
+#define setTapBarButton set_STCE3C13335BB973F652AEB4BD8B2AA023C_
+#endif
+#ifndef backImage
+#define backImage _STC74B19215297EDF504F387DEA52F374D8_
+#endif
+#ifndef _backImage
+#define _backImage __STC74B19215297EDF504F387DEA52F374D8_
+#endif
+#ifndef setBackImage
+#define setBackImage set_STC74B19215297EDF504F387DEA52F374D8_
+#endif
+#ifndef horizontalLabel
+#define horizontalLabel _STC4DA8ACEDF7CFD3F4F68D5E13946575B0_
+#endif
+#ifndef _horizontalLabel
+#define _horizontalLabel __STC4DA8ACEDF7CFD3F4F68D5E13946575B0_
+#endif
+#ifndef setHorizontalLabel
+#define setHorizontalLabel set_STC4DA8ACEDF7CFD3F4F68D5E13946575B0_
+#endif
+#ifndef centerView
+#define centerView _STCC4BFF8E5FC264365509511CF5DDA6BA0_
+#endif
+#ifndef _centerView
+#define _centerView __STCC4BFF8E5FC264365509511CF5DDA6BA0_
+#endif
+#ifndef setCenterView
+#define setCenterView set_STCC4BFF8E5FC264365509511CF5DDA6BA0_
+#endif
+#ifndef cellImageViewTag
+#define cellImageViewTag _STC4E0C21C70B417EAB8292B78C9996AD2E_
+#endif
+#ifndef _cellImageViewTag
+#define _cellImageViewTag __STC4E0C21C70B417EAB8292B78C9996AD2E_
+#endif
+#ifndef setCellImageViewTag
+#define setCellImageViewTag set_STC4E0C21C70B417EAB8292B78C9996AD2E_
+#endif
+#ifndef contentStr
+#define contentStr _STCE7C61818D3FDB248EC002E5AD5E964C5_
+#endif
+#ifndef _contentStr
+#define _contentStr __STCE7C61818D3FDB248EC002E5AD5E964C5_
+#endif
+#ifndef setContentStr
+#define setContentStr set_STCE7C61818D3FDB248EC002E5AD5E964C5_
+#endif
+#ifndef leftBut
+#define leftBut _STC8A74853C29AA7001EDC735C67CEE0AE8_
+#endif
+#ifndef _leftBut
+#define _leftBut __STC8A74853C29AA7001EDC735C67CEE0AE8_
+#endif
+#ifndef setLeftBut
+#define setLeftBut set_STC8A74853C29AA7001EDC735C67CEE0AE8_
+#endif
+#ifndef rightBut
+#define rightBut _STCA09A89511D488777D7BE43FE205C34BF_
+#endif
+#ifndef _rightBut
+#define _rightBut __STCA09A89511D488777D7BE43FE205C34BF_
+#endif
+#ifndef setRightBut
+#define setRightBut set_STCA09A89511D488777D7BE43FE205C34BF_
+#endif
+#ifndef volumeViewSlider
+#define volumeViewSlider _STCB6AF05497F56BDED51EBBBFE2A2435E5_
+#endif
+#ifndef _volumeViewSlider
+#define _volumeViewSlider __STCB6AF05497F56BDED51EBBBFE2A2435E5_
+#endif
+#ifndef setVolumeViewSlider
+#define setVolumeViewSlider set_STCB6AF05497F56BDED51EBBBFE2A2435E5_
+#endif
+#ifndef videoSlider
+#define videoSlider _STC9FBB81BA0C3BB1B89BF33F8CDDD4DB8B_
+#endif
+#ifndef _videoSlider
+#define _videoSlider __STC9FBB81BA0C3BB1B89BF33F8CDDD4DB8B_
+#endif
+#ifndef setVideoSlider
+#define setVideoSlider set_STC9FBB81BA0C3BB1B89BF33F8CDDD4DB8B_
+#endif
+#ifndef networkReachabilityStatusBlock
+#define networkReachabilityStatusBlock _STCB4B70216EDFB4A549D7B890859BD064F_
+#endif
+#ifndef _networkReachabilityStatusBlock
+#define _networkReachabilityStatusBlock __STCB4B70216EDFB4A549D7B890859BD064F_
+#endif
+#ifndef setNetworkReachabilityStatusBlock
+#define setNetworkReachabilityStatusBlock set_STCB4B70216EDFB4A549D7B890859BD064F_
+#endif
+#ifndef trackProgressBlock
+#define trackProgressBlock _STC308DCAF2F10DAD692D94E64B9A855997_
+#endif
+#ifndef _trackProgressBlock
+#define _trackProgressBlock __STC308DCAF2F10DAD692D94E64B9A855997_
+#endif
+#ifndef setTrackProgressBlock
+#define setTrackProgressBlock set_STC308DCAF2F10DAD692D94E64B9A855997_
+#endif
+#ifndef totalTimeLabel
+#define totalTimeLabel _STC79DA71E7897044A49F068B311BD41EDD_
+#endif
+#ifndef _totalTimeLabel
+#define _totalTimeLabel __STC79DA71E7897044A49F068B311BD41EDD_
+#endif
+#ifndef setTotalTimeLabel
+#define setTotalTimeLabel set_STC79DA71E7897044A49F068B311BD41EDD_
+#endif
+#ifndef seekTime
+#define seekTime _STC9F1141FC31C0781B9F44EF4770E00817_
+#endif
+#ifndef _seekTime
+#define _seekTime __STC9F1141FC31C0781B9F44EF4770E00817_
+#endif
+#ifndef setSeekTime
+#define setSeekTime set_STC9F1141FC31C0781B9F44EF4770E00817_
+#endif
+#ifndef playerState
+#define playerState _STCCF375A5FF63979B0455739D2E6D70B44_
+#endif
+#ifndef _playerState
+#define _playerState __STCCF375A5FF63979B0455739D2E6D70B44_
+#endif
+#ifndef setPlayerState
+#define setPlayerState set_STCCF375A5FF63979B0455739D2E6D70B44_
+#endif
+#ifndef hasLoad
+#define hasLoad _STCB0D8EF779ADADFA18E6E3A6005AA38C6_
+#endif
+#ifndef _hasLoad
+#define _hasLoad __STCB0D8EF779ADADFA18E6E3A6005AA38C6_
+#endif
+#ifndef setHasLoad
+#define setHasLoad set_STCB0D8EF779ADADFA18E6E3A6005AA38C6_
+#endif
+#ifndef valueanimated
+#define valueanimated _STC76B28D8B69E76428C00D878097FDE9AC_
+#endif
+#ifndef _valueanimated
+#define _valueanimated __STC76B28D8B69E76428C00D878097FDE9AC_
+#endif
+#ifndef setValueanimated
+#define setValueanimated set_STC76B28D8B69E76428C00D878097FDE9AC_
+#endif
+#ifndef ListTitle
+#define ListTitle _STC0C1E10A7F53AD0A80522359ED2786F95_
+#endif
+#ifndef _ListTitle
+#define _ListTitle __STC0C1E10A7F53AD0A80522359ED2786F95_
+#endif
+#ifndef setListTitle
+#define setListTitle set_STC0C1E10A7F53AD0A80522359ED2786F95_
+#endif
+#ifndef leftButClick
+#define leftButClick _STCD1FB6B7A7378EECDAA44BB0878B4C499_
+#endif
+#ifndef _leftButClick
+#define _leftButClick __STCD1FB6B7A7378EECDAA44BB0878B4C499_
+#endif
+#ifndef setLeftButClick
+#define setLeftButClick set_STCD1FB6B7A7378EECDAA44BB0878B4C499_
+#endif
+#ifndef heightPaddingFactor
+#define heightPaddingFactor _STCF4E3B12FF942029A4EBDA9F1AEF25F9E_
+#endif
+#ifndef _heightPaddingFactor
+#define _heightPaddingFactor __STCF4E3B12FF942029A4EBDA9F1AEF25F9E_
+#endif
+#ifndef setHeightPaddingFactor
+#define setHeightPaddingFactor set_STCF4E3B12FF942029A4EBDA9F1AEF25F9E_
+#endif
+#ifndef isChangeResolution
+#define isChangeResolution _STCCAF706F316F3B4E19E19D02230B81A84_
+#endif
+#ifndef _isChangeResolution
+#define _isChangeResolution __STCCAF706F316F3B4E19E19D02230B81A84_
+#endif
+#ifndef setIsChangeResolution
+#define setIsChangeResolution set_STCCAF706F316F3B4E19E19D02230B81A84_
+#endif
+#ifndef currentShow
+#define currentShow _STCBA18CF59AA6B3BB3E43D44E5DE0664BA_
+#endif
+#ifndef _currentShow
+#define _currentShow __STCBA18CF59AA6B3BB3E43D44E5DE0664BA_
+#endif
+#ifndef setCurrentShow
+#define setCurrentShow set_STCBA18CF59AA6B3BB3E43D44E5DE0664BA_
+#endif
+#ifndef playDidEnd
+#define playDidEnd _STC7385851E81306160B8731CC119BCDDB0_
+#endif
+#ifndef _playDidEnd
+#define _playDidEnd __STC7385851E81306160B8731CC119BCDDB0_
+#endif
+#ifndef setPlayDidEnd
+#define setPlayDidEnd set_STC7385851E81306160B8731CC119BCDDB0_
+#endif
+#ifndef fullScreenBtn
+#define fullScreenBtn _STC06E2405F2B6AB7676EB2C3A584F4515D_
+#endif
+#ifndef _fullScreenBtn
+#define _fullScreenBtn __STC06E2405F2B6AB7676EB2C3A584F4515D_
+#endif
+#ifndef setFullScreenBtn
+#define setFullScreenBtn set_STC06E2405F2B6AB7676EB2C3A584F4515D_
+#endif
+#ifndef videoURLArray
+#define videoURLArray _STCCE63D7A98F458E0D4CABE83855E48798_
+#endif
+#ifndef _videoURLArray
+#define _videoURLArray __STCCE63D7A98F458E0D4CABE83855E48798_
+#endif
+#ifndef setVideoURLArray
+#define setVideoURLArray set_STCCE63D7A98F458E0D4CABE83855E48798_
+#endif
+#ifndef repeatToPlay
+#define repeatToPlay _STCBF5004E56796AB7D53CDACCBB922D86D_
+#endif
+#ifndef _repeatToPlay
+#define _repeatToPlay __STCBF5004E56796AB7D53CDACCBB922D86D_
+#endif
+#ifndef setRepeatToPlay
+#define setRepeatToPlay set_STCBF5004E56796AB7D53CDACCBB922D86D_
+#endif
+#ifndef resolutionArray
+#define resolutionArray _STC71F41CD35CCC66D40A9CF423B4D3FDE7_
+#endif
+#ifndef _resolutionArray
+#define _resolutionArray __STC71F41CD35CCC66D40A9CF423B4D3FDE7_
+#endif
+#ifndef setResolutionArray
+#define setResolutionArray set_STC71F41CD35CCC66D40A9CF423B4D3FDE7_
+#endif
+#ifndef doubleTap
+#define doubleTap _STCEC95C01E8B2A89356FEC09EF7C7682F3_
+#endif
+#ifndef _doubleTap
+#define _doubleTap __STCEC95C01E8B2A89356FEC09EF7C7682F3_
+#endif
+#ifndef setDoubleTap
+#define setDoubleTap set_STCEC95C01E8B2A89356FEC09EF7C7682F3_
+#endif
+#ifndef animatedColorswithKeyTimes
+#define animatedColorswithKeyTimes _STC5730ED458BB55B807DDB2ED2459862BD_
+#endif
+#ifndef _animatedColorswithKeyTimes
+#define _animatedColorswithKeyTimes __STC5730ED458BB55B807DDB2ED2459862BD_
+#endif
+#ifndef setAnimatedColorswithKeyTimes
+#define setAnimatedColorswithKeyTimes set_STC5730ED458BB55B807DDB2ED2459862BD_
+#endif
+#ifndef documentList
+#define documentList _STCC112222209C49D47F29149706CD71A9E_
+#endif
+#ifndef _documentList
+#define _documentList __STCC112222209C49D47F29149706CD71A9E_
+#endif
+#ifndef setDocumentList
+#define setDocumentList set_STCC112222209C49D47F29149706CD71A9E_
+#endif
+#ifndef navtitleLabel
+#define navtitleLabel _STC5CF0C03D532A7C349EDB1AF4015CC9F9_
+#endif
+#ifndef _navtitleLabel
+#define _navtitleLabel __STC5CF0C03D532A7C349EDB1AF4015CC9F9_
+#endif
+#ifndef setNavtitleLabel
+#define setNavtitleLabel set_STC5CF0C03D532A7C349EDB1AF4015CC9F9_
+#endif
+#ifndef isPauseByUser
+#define isPauseByUser _STC8666302155659C631746CA692B840635_
+#endif
+#ifndef _isPauseByUser
+#define _isPauseByUser __STC8666302155659C631746CA692B840635_
+#endif
+#ifndef setIsPauseByUser
+#define setIsPauseByUser set_STC8666302155659C631746CA692B840635_
+#endif
+#ifndef playButton
+#define playButton _STC712001A8B27147E067E740C121A20C71_
+#endif
+#ifndef _playButton
+#define _playButton __STC712001A8B27147E067E740C121A20C71_
+#endif
+#ifndef setPlayButton
+#define setPlayButton set_STC712001A8B27147E067E740C121A20C71_
+#endif
+#ifndef downloadBlock
+#define downloadBlock _STCAD5B8129553251F7624CB7EEDB4FAB03_
+#endif
+#ifndef _downloadBlock
+#define _downloadBlock __STCAD5B8129553251F7624CB7EEDB4FAB03_
+#endif
+#ifndef setDownloadBlock
+#define setDownloadBlock set_STCAD5B8129553251F7624CB7EEDB4FAB03_
+#endif
+#ifndef playeBtn
+#define playeBtn _STC133CAAD2ED7CDDF1686C84D6B13CD607_
+#endif
+#ifndef _playeBtn
+#define _playeBtn __STC133CAAD2ED7CDDF1686C84D6B13CD607_
+#endif
+#ifndef setPlayeBtn
+#define setPlayeBtn set_STC133CAAD2ED7CDDF1686C84D6B13CD607_
+#endif
+#ifndef topImageView
+#define topImageView _STCCEA41128CFE065E844319FF172D7710B_
+#endif
+#ifndef _topImageView
+#define _topImageView __STCCEA41128CFE065E844319FF172D7710B_
+#endif
+#ifndef setTopImageView
+#define setTopImageView set_STCCEA41128CFE065E844319FF172D7710B_
+#endif
+#ifndef ReArr
+#define ReArr _STC8CDD63CA2EF2EC522A5E1FA5C6D1E022_
+#endif
+#ifndef _ReArr
+#define _ReArr __STC8CDD63CA2EF2EC522A5E1FA5C6D1E022_
+#endif
+#ifndef setReArr
+#define setReArr set_STC8CDD63CA2EF2EC522A5E1FA5C6D1E022_
+#endif
+#ifndef slider
+#define slider _STC30E0076EB924D149DA0D451A8D539479_
+#endif
+#ifndef _slider
+#define _slider __STC30E0076EB924D149DA0D451A8D539479_
+#endif
+#ifndef setSlider
+#define setSlider set_STC30E0076EB924D149DA0D451A8D539479_
+#endif
+#ifndef tipArray
+#define tipArray _STC50F4C23385E143B871FF93B0676CF980_
+#endif
+#ifndef _tipArray
+#define _tipArray __STC50F4C23385E143B871FF93B0676CF980_
+#endif
+#ifndef setTipArray
+#define setTipArray set_STC50F4C23385E143B871FF93B0676CF980_
+#endif
+#ifndef sliderLastValue
+#define sliderLastValue _STC86D0967BF717F7006E87CAE1C47B76E6_
+#endif
+#ifndef _sliderLastValue
+#define _sliderLastValue __STC86D0967BF717F7006E87CAE1C47B76E6_
+#endif
+#ifndef setSliderLastValue
+#define setSliderLastValue set_STC86D0967BF717F7006E87CAE1C47B76E6_
+#endif
+#ifndef videoURLwithTableViewAtIndexPathwithImageViewTag
+#define videoURLwithTableViewAtIndexPathwithImageViewTag _STC19C26BB2A0E3DFA38C81A53D7A90F69D_
+#endif
+#ifndef _videoURLwithTableViewAtIndexPathwithImageViewTag
+#define _videoURLwithTableViewAtIndexPathwithImageViewTag __STC19C26BB2A0E3DFA38C81A53D7A90F69D_
+#endif
+#ifndef setVideoURLwithTableViewAtIndexPathwithImageViewTag
+#define setVideoURLwithTableViewAtIndexPathwithImageViewTag set_STC19C26BB2A0E3DFA38C81A53D7A90F69D_
+#endif
+#ifndef artModel
+#define artModel _STC3FEAA82151149A1724263CC9D3862AF5_
+#endif
+#ifndef _artModel
+#define _artModel __STC3FEAA82151149A1724263CC9D3862AF5_
+#endif
+#ifndef setArtModel
+#define setArtModel set_STC3FEAA82151149A1724263CC9D3862AF5_
+#endif
+#ifndef playerView
+#define playerView _STCEF316B9532955B31C251AA2270E581F6_
+#endif
+#ifndef _playerView
+#define _playerView __STCEF316B9532955B31C251AA2270E581F6_
+#endif
+#ifndef setPlayerView
+#define setPlayerView set_STCEF316B9532955B31C251AA2270E581F6_
+#endif
+#ifndef ListArr
+#define ListArr _STC274779C3E3C1668852A5F78356251DC4_
+#endif
+#ifndef _ListArr
+#define _ListArr __STC274779C3E3C1668852A5F78356251DC4_
+#endif
+#ifndef setListArr
+#define setListArr set_STC274779C3E3C1668852A5F78356251DC4_
+#endif
+#ifndef popUpViewCornerRadius
+#define popUpViewCornerRadius _STCFDBC7F92323DE7F1B9A7D1893D541BFC_
+#endif
+#ifndef _popUpViewCornerRadius
+#define _popUpViewCornerRadius __STCFDBC7F92323DE7F1B9A7D1893D541BFC_
+#endif
+#ifndef setPopUpViewCornerRadius
+#define setPopUpViewCornerRadius set_STCFDBC7F92323DE7F1B9A7D1893D541BFC_
+#endif
+#ifndef animationOffsetreturnColor
+#define animationOffsetreturnColor _STC1941FCB25EF064BDFDF3B90680ACE47F_
+#endif
+#ifndef _animationOffsetreturnColor
+#define _animationOffsetreturnColor __STC1941FCB25EF064BDFDF3B90680ACE47F_
+#endif
+#ifndef setAnimationOffsetreturnColor
+#define setAnimationOffsetreturnColor set_STC1941FCB25EF064BDFDF3B90680ACE47F_
+#endif
+#ifndef viewDisappear
+#define viewDisappear _STCA904ECCD53D3996AB1C606D79AFED86B_
+#endif
+#ifndef _viewDisappear
+#define _viewDisappear __STCA904ECCD53D3996AB1C606D79AFED86B_
+#endif
+#ifndef setViewDisappear
+#define setViewDisappear set_STCA904ECCD53D3996AB1C606D79AFED86B_
+#endif
+#ifndef autoAdjustTrackColor
+#define autoAdjustTrackColor _STC2168D0FC67B972DAD1DD539185AD5770_
+#endif
+#ifndef _autoAdjustTrackColor
+#define _autoAdjustTrackColor __STC2168D0FC67B972DAD1DD539185AD5770_
+#endif
+#ifndef setAutoAdjustTrackColor
+#define setAutoAdjustTrackColor set_STC2168D0FC67B972DAD1DD539185AD5770_
+#endif
+#ifndef backBtn
+#define backBtn _STC5B2E83E477612E1EDAD9F48142F47F68_
+#endif
+#ifndef _backBtn
+#define _backBtn __STC5B2E83E477612E1EDAD9F48142F47F68_
+#endif
+#ifndef setBackBtn
+#define setBackBtn set_STC5B2E83E477612E1EDAD9F48142F47F68_
+#endif
+#ifndef relatedArr
+#define relatedArr _STC7181248DC35BEB26430EE96DEB04C4CD_
+#endif
+#ifndef _relatedArr
+#define _relatedArr __STC7181248DC35BEB26430EE96DEB04C4CD_
+#endif
+#ifndef setRelatedArr
+#define setRelatedArr set_STC7181248DC35BEB26430EE96DEB04C4CD_
+#endif
+#ifndef repeatBtn
+#define repeatBtn _STC0E302A744240C6A3B2F09CFCF695692B_
+#endif
+#ifndef _repeatBtn
+#define _repeatBtn __STC0E302A744240C6A3B2F09CFCF695692B_
+#endif
+#ifndef setRepeatBtn
+#define setRepeatBtn set_STC0E302A744240C6A3B2F09CFCF695692B_
+#endif
+#ifndef mp3Url
+#define mp3Url _STC83CA4016B4A76E90BE7A1E5BBB3BDECB_
+#endif
+#ifndef _mp3Url
+#define _mp3Url __STC83CA4016B4A76E90BE7A1E5BBB3BDECB_
+#endif
+#ifndef setMp3Url
+#define setMp3Url set_STC83CA4016B4A76E90BE7A1E5BBB3BDECB_
+#endif
+#ifndef isAllowLandscape
+#define isAllowLandscape _STC6F4E6657B3C5313D87413EA0C30C3E32_
+#endif
+#ifndef _isAllowLandscape
+#define _isAllowLandscape __STC6F4E6657B3C5313D87413EA0C30C3E32_
+#endif
+#ifndef setIsAllowLandscape
+#define setIsAllowLandscape set_STC6F4E6657B3C5313D87413EA0C30C3E32_
+#endif
+#ifndef bottomImageView
+#define bottomImageView _STC8D8BFD703655029179FC6FC3F7FCAA32_
+#endif
+#ifndef _bottomImageView
+#define _bottomImageView __STC8D8BFD703655029179FC6FC3F7FCAA32_
+#endif
+#ifndef setBottomImageView
+#define setBottomImageView set_STC8D8BFD703655029179FC6FC3F7FCAA32_
+#endif
+#ifndef leftVC
+#define leftVC _STCAD20DCE419A4261395C9649DEE4F62AF_
+#endif
+#ifndef _leftVC
+#define _leftVC __STCAD20DCE419A4261395C9649DEE4F62AF_
+#endif
+#ifndef setLeftVC
+#define setLeftVC set_STCAD20DCE419A4261395C9649DEE4F62AF_
+#endif
+#ifndef tapBlock
+#define tapBlock _STCE374255AF0D17505D7AF6142CA5D5F51_
+#endif
+#ifndef _tapBlock
+#define _tapBlock __STCE374255AF0D17505D7AF6142CA5D5F51_
+#endif
+#ifndef setTapBlock
+#define setTapBlock set_STCE374255AF0D17505D7AF6142CA5D5F51_
+#endif
+#ifndef firstLabel
+#define firstLabel _STC3CC053C15A07C2A6E0C7BD822BFEBA87_
+#endif
+#ifndef _firstLabel
+#define _firstLabel __STC3CC053C15A07C2A6E0C7BD822BFEBA87_
+#endif
+#ifndef setFirstLabel
+#define setFirstLabel set_STC3CC053C15A07C2A6E0C7BD822BFEBA87_
+#endif
+#ifndef videoTitle
+#define videoTitle _STCE31F63BD37DF8E465B02727C4A0AAF33_
+#endif
+#ifndef _videoTitle
+#define _videoTitle __STCE31F63BD37DF8E465B02727C4A0AAF33_
+#endif
+#ifndef setVideoTitle
+#define setVideoTitle set_STCE31F63BD37DF8E465B02727C4A0AAF33_
+#endif
+#ifndef sumTime
+#define sumTime _STC0811EF664A52EE98B87E6FCED900B907_
+#endif
+#ifndef _sumTime
+#define _sumTime __STC0811EF664A52EE98B87E6FCED900B907_
+#endif
+#ifndef setSumTime
+#define setSumTime set_STC0811EF664A52EE98B87E6FCED900B907_
+#endif
+#ifndef isMaskShowing
+#define isMaskShowing _STC634EDB15FDE33888917362B6F4E928F7_
+#endif
+#ifndef _isMaskShowing
+#define _isMaskShowing __STC634EDB15FDE33888917362B6F4E928F7_
+#endif
+#ifndef setIsMaskShowing
+#define setIsMaskShowing set_STC634EDB15FDE33888917362B6F4E928F7_
+#endif
+#ifndef trackPlayerStateBlock
+#define trackPlayerStateBlock _STC556232249CF7E994C64939C29CD6DF71_
+#endif
+#ifndef _trackPlayerStateBlock
+#define _trackPlayerStateBlock __STC556232249CF7E994C64939C29CD6DF71_
+#endif
+#ifndef setTrackPlayerStateBlock
+#define setTrackPlayerStateBlock set_STC556232249CF7E994C64939C29CD6DF71_
+#endif
+#ifndef resolutionView
+#define resolutionView _STC8B0AFD135D1CD13C8C345A057D33FB31_
+#endif
+#ifndef _resolutionView
+#define _resolutionView __STC8B0AFD135D1CD13C8C345A057D33FB31_
+#endif
+#ifndef setResolutionView
+#define setResolutionView set_STC8B0AFD135D1CD13C8C345A057D33FB31_
+#endif
+#ifndef longView
+#define longView _STC91E058389C8917BC75DEC65ECB67195B_
+#endif
+#ifndef _longView
+#define _longView __STC91E058389C8917BC75DEC65ECB67195B_
+#endif
+#ifndef setLongView
+#define setLongView set_STC91E058389C8917BC75DEC65ECB67195B_
+#endif
+#ifndef isBottomVideo
+#define isBottomVideo _STC3DD94516716C5AF757ABED507FFFB233_
+#endif
+#ifndef _isBottomVideo
+#define _isBottomVideo __STC3DD94516716C5AF757ABED507FFFB233_
+#endif
+#ifndef setIsBottomVideo
+#define setIsBottomVideo set_STC3DD94516716C5AF757ABED507FFFB233_
+#endif
+#ifndef popUpViewAlwaysOn
+#define popUpViewAlwaysOn _STCE665CF3278081CBDC4EB0CB0A861D507_
+#endif
+#ifndef _popUpViewAlwaysOn
+#define _popUpViewAlwaysOn __STCE665CF3278081CBDC4EB0CB0A861D507_
+#endif
+#ifndef setPopUpViewAlwaysOn
+#define setPopUpViewAlwaysOn set_STCE665CF3278081CBDC4EB0CB0A861D507_
+#endif
+#ifndef tb
+#define tb _STC74569B7A46E9E3FE47E5DF9B0A75F26A_
+#endif
+#ifndef _tb
+#define _tb __STC74569B7A46E9E3FE47E5DF9B0A75F26A_
+#endif
+#ifndef setTb
+#define setTb set_STC74569B7A46E9E3FE47E5DF9B0A75F26A_
+#endif
+
+#endif
+//------------------------------------------------------
+
+

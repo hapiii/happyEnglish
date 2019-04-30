@@ -22,7 +22,7 @@ static NSString * const ListCellID = @"ListCellID";
     
     if (_tb==nil) {
         _tb = [[UITableView alloc] initWithFrame:CGRectMake(0, 100, SCREEN_WIDTH, SCREENH_HEIGHT) style:UITableViewStylePlain];
-        _tb.backgroundColor =  WQRGBColor(250,56,101);
+        _tb.backgroundColor =  WQRGBColor(250,55,102);
         _tb.separatorStyle = NO;
         _tb.delegate = self;
         _tb.dataSource = self;
@@ -35,7 +35,7 @@ static NSString * const ListCellID = @"ListCellID";
 - (void)viewDidLoad {
     
     [super viewDidLoad];
-    self.view.backgroundColor = WQRGBColor(250,56,101);
+    self.view.backgroundColor = WQRGBColor(250,55,102);
     
     [self.view addSubview:self.tb];
     [self loadData];

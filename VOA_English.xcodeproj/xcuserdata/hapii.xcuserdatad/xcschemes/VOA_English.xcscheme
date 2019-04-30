@@ -15,8 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "BFBFE5431E6CED0700F114E2"
-               BuildableName = "VOA_English.app"
-               BlueprintName = "VOA_English"
+               BuildableName = "duoduole.app"
+               BlueprintName = "duoduole"
                ReferencedContainer = "container:VOA_English.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -53,8 +53,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "BFBFE5431E6CED0700F114E2"
-            BuildableName = "VOA_English.app"
-            BlueprintName = "VOA_English"
+            BuildableName = "duoduole.app"
+            BlueprintName = "duoduole"
             ReferencedContainer = "container:VOA_English.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -62,7 +62,7 @@
       </AdditionalOptions>
    </TestAction>
    <LaunchAction
-      buildConfiguration = "Debug"
+      buildConfiguration = "Release"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       launchStyle = "0"
@@ -76,8 +76,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "BFBFE5431E6CED0700F114E2"
-            BuildableName = "VOA_English.app"
-            BlueprintName = "VOA_English"
+            BuildableName = "duoduole.app"
+            BlueprintName = "duoduole"
             ReferencedContainer = "container:VOA_English.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -102,8 +102,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "BFBFE5431E6CED0700F114E2"
-            BuildableName = "VOA_English.app"
-            BlueprintName = "VOA_English"
+            BuildableName = "duoduole.app"
+            BlueprintName = "duoduole"
             ReferencedContainer = "container:VOA_English.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>

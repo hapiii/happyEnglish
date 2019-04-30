@@ -13,6 +13,7 @@
 #define kRightAnimationDuration 0.5
 #define kLeftViewWidth SCREEN_WIDTH*0.6
 #define kRightViewWidth SCREEN_WIDTH*0.6
+
 @interface ViewController ()
 
 

@@ -1,0 +1,1 @@
+../../../STCObfuscator/STCObfuscator/STCObfuscator/STCObfuscator.h

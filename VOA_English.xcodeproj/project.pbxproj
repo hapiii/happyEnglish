@@ -117,6 +117,7 @@
 		BF035149227581240086015E /* MainWebController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainWebController.h; sourceTree = "<group>"; };
 		BF03514A227581240086015E /* MainWebController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainWebController.m; sourceTree = "<group>"; };
 		BF03514C227598680086015E /* 王凯杰.p12 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "王凯杰.p12"; sourceTree = "<group>"; };
+		BF149598227837F800449BC1 /* STCDefination.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STCDefination.h; sourceTree = SOURCE_ROOT; };
 		BF16794E1E83C5F500E36318 /* VideoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoModel.h; sourceTree = "<group>"; };
 		BF16794F1E83C5F500E36318 /* VideoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoModel.m; sourceTree = "<group>"; };
 		BF1778691E6FE68C00EBC03F /* BaseTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTableView.h; sourceTree = "<group>"; };
@@ -239,7 +240,7 @@
 		BFA92F2C1E95EB32003D8A26 /* UIToolbar+Night.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIToolbar+Night.m"; sourceTree = "<group>"; };
 		BFA92F2D1E95EB32003D8A26 /* UIView+Night.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Night.h"; sourceTree = "<group>"; };
 		BFA92F2E1E95EB32003D8A26 /* UIView+Night.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Night.m"; sourceTree = "<group>"; };
-		BFBFE5441E6CED0700F114E2 /* VOA_English.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VOA_English.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFBFE5441E6CED0700F114E2 /* duoduole.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = duoduole.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFBFE5481E6CED0700F114E2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BFBFE54A1E6CED0700F114E2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BFBFE54B1E6CED0700F114E2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -564,7 +565,7 @@
 		BFBFE5451E6CED0700F114E2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BFBFE5441E6CED0700F114E2 /* VOA_English.app */,
+				BFBFE5441E6CED0700F114E2 /* duoduole.app */,
 				BFBFE55D1E6CED0700F114E2 /* VOA_EnglishTests.xctest */,
 				BFBFE5681E6CED0700F114E2 /* VOA_EnglishUITests.xctest */,
 			);
@@ -597,6 +598,7 @@
 		BFBFE5471E6CED0700F114E2 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				BF149598227837F800449BC1 /* STCDefination.h */,
 				BFBFE5481E6CED0700F114E2 /* main.m */,
 				BFBFE5A21E6E3F6500F114E2 /* PrefixHeader.pch */,
 				BFBFE5AF1E6E730C00F114E2 /* File */,
@@ -757,23 +759,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		BFBFE5431E6CED0700F114E2 /* VOA_English */ = {
+		BFBFE5431E6CED0700F114E2 /* duoduole */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BFBFE5711E6CED0700F114E2 /* Build configuration list for PBXNativeTarget "VOA_English" */;
+			buildConfigurationList = BFBFE5711E6CED0700F114E2 /* Build configuration list for PBXNativeTarget "duoduole" */;
 			buildPhases = (
 				BF6065CCEFE8A59A09C7AB97 /* [CP] Check Pods Manifest.lock */,
 				BFBFE5401E6CED0700F114E2 /* Sources */,
 				BFBFE5411E6CED0700F114E2 /* Frameworks */,
 				BFBFE5421E6CED0700F114E2 /* Resources */,
 				A066A90FAD28C7AAB562A85F /* [CP] Copy Pods Resources */,
+				BF14959022781B8E00449BC1 /* ShellScript */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = VOA_English;
+			name = duoduole;
 			productName = VOA_English;
-			productReference = BFBFE5441E6CED0700F114E2 /* VOA_English.app */;
+			productReference = BFBFE5441E6CED0700F114E2 /* duoduole.app */;
 			productType = "com.apple.product-type.application";
 		};
 		BFBFE55C1E6CED0700F114E2 /* VOA_EnglishTests */ = {
@@ -853,7 +856,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BFBFE5431E6CED0700F114E2 /* VOA_English */,
+				BFBFE5431E6CED0700F114E2 /* duoduole */,
 				BFBFE55C1E6CED0700F114E2 /* VOA_EnglishTests */,
 				BFBFE5671E6CED0700F114E2 /* VOA_EnglishUITests */,
 			);
@@ -914,6 +917,23 @@
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VOA_English/Pods-VOA_English-resources.sh\"\n";
 			showEnvVarsInLog = 0;
+		};
+		BF14959022781B8E00449BC1 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "dir=${SRCROOT}\nfile_count=0\nfile_list=`ls -R $dir 2> /dev/null | grep -v '^$'`\nfor file_name in $file_list\ndo\ntemp=`echo $file_name | sed 's/:.*$//g'`\nif [ \"$file_name\" != \"$temp\" ]; then\ncur_dir=$temp\nelse\nif [ ${file_name##*.} = a ]; then\nfind -P $dir -name $file_name > tmp.txt\nvar=$(cat tmp.txt)\nnm $var > ${file_name}.txt\nrm tmp.txt\nfi\nif [ ${file_name##*.} = framework ]; then\nfind -P $dir -name ${file_name%%.*} > tmp.txt\nvar=$(cat tmp.txt)\nnm $var > ${file_name}.txt\nrm tmp.txt\nfi\nfi\ndone\n";
 		};
 		BF6065CCEFE8A59A09C7AB97 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -1034,12 +1054,12 @@
 /* Begin PBXTargetDependency section */
 		BFBFE55F1E6CED0700F114E2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = BFBFE5431E6CED0700F114E2 /* VOA_English */;
+			target = BFBFE5431E6CED0700F114E2 /* duoduole */;
 			targetProxy = BFBFE55E1E6CED0700F114E2 /* PBXContainerItemProxy */;
 		};
 		BFBFE56A1E6CED0700F114E2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = BFBFE5431E6CED0700F114E2 /* VOA_English */;
+			target = BFBFE5431E6CED0700F114E2 /* duoduole */;
 			targetProxy = BFBFE5691E6CED0700F114E2 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -1153,10 +1173,17 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = DN6UGR8B88;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/VOA_English/PrefixHeader.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+					"LINKMAP_FILE=$(TARGET_TEMP_DIR)/$(PRODUCT_NAME)-LinkMap-$(CURRENT_VARIANT)-$(CURRENT_ARCH).txt",
+					"ROOT_PATH=\"${SRCROOT}\"",
+				);
 				INFOPLIST_FILE = VOA_English/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_GENERATE_MAP_FILE = YES;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.duoduole.english;
+				PRODUCT_BUNDLE_IDENTIFIER = com.duoduole.Chinese;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -1170,8 +1197,9 @@
 				GCC_PREFIX_HEADER = "$(SRCROOT)/VOA_English/PrefixHeader.pch";
 				INFOPLIST_FILE = VOA_English/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_GENERATE_MAP_FILE = YES;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.duoduole.english;
+				PRODUCT_BUNDLE_IDENTIFIER = com.duoduole.Chinese;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -1238,7 +1266,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BFBFE5711E6CED0700F114E2 /* Build configuration list for PBXNativeTarget "VOA_English" */ = {
+		BFBFE5711E6CED0700F114E2 /* Build configuration list for PBXNativeTarget "duoduole" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BFBFE5721E6CED0700F114E2 /* Debug */,

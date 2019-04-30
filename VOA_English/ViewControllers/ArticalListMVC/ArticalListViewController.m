@@ -9,6 +9,7 @@
 #import "ArticalListViewController.h"
 #import "DetailViewController.h"
 #import "VideoViewController.h"
+#import <MJRefresh.h>
 //最后一级的列表页，文章列表
 @interface ArticalListViewController ()
 
@@ -202,7 +203,7 @@
     
     UIBarButtonItem *search = [[UIBarButtonItem alloc] initWithImage:[[UIImage imageNamed:@"return"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal] style:UIBarButtonItemStylePlain target:self action:@selector(returnButClick)];
     [self.navigationController.navigationBar setTranslucent:NO];
-    self.navigationController.navigationBar.barTintColor = WQRGBColor(250,56,101);
+    self.navigationController.navigationBar.barTintColor = WQRGBColor(250,55,102);
     
     self.navigationItem.leftBarButtonItem = search;
     UILabel *titleLab = [UILabel new];

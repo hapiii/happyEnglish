@@ -2,6 +2,9 @@ PODS:
   - BmobSDK (2.3.1)
   - Masonry (1.1.0)
   - MJRefresh (3.1.16)
+  - STCObfuscator (1.3.0):
+    - STCObfuscator/Ahocorasick (= 1.3.0)
+  - STCObfuscator/Ahocorasick (1.3.0)
   - SVProgressHUD (2.1.2)
   - YYCategories (1.0.4):
     - YYCategories/no-arc (= 1.0.4)
@@ -11,6 +14,7 @@ DEPENDENCIES:
   - BmobSDK
   - Masonry
   - MJRefresh (~> 3.1.12)
+  - STCObfuscator
   - SVProgressHUD
   - YYCategories
 
@@ -19,6 +23,7 @@ SPEC REPOS:
     - BmobSDK
     - Masonry
     - MJRefresh
+    - STCObfuscator
     - SVProgressHUD
     - YYCategories
 
@@ -26,9 +31,10 @@ SPEC CHECKSUMS:
   BmobSDK: e0f9e4b451233a80af63a8ae4f2d239474bf567b
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MJRefresh: 7798e16e53a5ef7f332dd05b27664db4e29530fd
+  STCObfuscator: e72b67cd35a22a78d02489fb3b9d452a088b6ede
   SVProgressHUD: c404a55d78acbeb7ebb78b76d3faf986475a6994
   YYCategories: 6bcd4314c6661a561410dce4a793379ebd306abd
 
-PODFILE CHECKSUM: 800df5ca62442f98d671dfc895b3c5958da1320d
+PODFILE CHECKSUM: 8b7459e514e7c4f8a36d1029fb98b1e2521c3554
 
 COCOAPODS: 1.6.0

@@ -79,7 +79,7 @@
     
     UIView *topBG = [UIView new];
     [self.view addSubview:topBG];
-    topBG.backgroundColor = WQRGBColor(250,56,101);
+    topBG.backgroundColor = WQRGBColor(250,55,102);
     UIButton *leftBtn = [UIButton new];
     [leftBtn setImage:[UIImage imageNamed:@"bookStore"] forState:UIControlStateNormal];
     leftBtn.tag = 100;
@@ -108,7 +108,10 @@
         make.width.height.offset(40);
     }];
     UILabel *titleLab = [UILabel new];
-    titleLab.text = @"VOA English";
+    
+    NSDictionary *infoDictionary = [[NSBundle mainBundle] infoDictionary];
+    NSString *app_Name = [infoDictionary objectForKey:@"CFBundleDisplayName"];
+    titleLab.text = app_Name;
     titleLab.font = [UIFont fontWithName:@"MalayalamSangamMN-Bold" size:20.f];
     titleLab.textAlignment = NSTextAlignmentCenter;
     [topBG addSubview:titleLab];
